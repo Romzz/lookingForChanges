@@ -1,0 +1,1729 @@
+					casino.jurisdiction	AGCC
+casino.systemcurrency	EUR
+coreweb.testpagesallowedips	*
+flash.background	0x000000
+flash.googleanalytics	UA-790850-29
+flash.resourceroot	http://gfsdev.s3.amazonaws.com/casino21800_19
+flash.urloptions	&
+game.allowhelpoverride	1
+game.allowhistoryoverride	0
+game.autoadjustbet	0
+game.autohold	1
+game.coreserver	10.0.4.1:9000
+game.coreserverpractice	10.0.4.1:8808
+game.enabled	1
+game.helpurl	/casino/gamehelp?pid={PRODUCT}&gameid={GAMEID}&lang={LANGUAGE}
+game.minroundtime	1001
+game.minspinningtime	
+game.nevergamble	0
+game.operatorenabled	1
+game.paytable	1
+game.resourceroot	http://gfsdev.s3.amazonaws.com/game21804_4/
+game.showsplash	1
+gmt.timezone	UTC
+help.backurlmode	0
+help.googleanalytics	UA-790850-29
+help.hidertp	0
+help.showlastmonthrtp	1
+limits.acesplus	1,2
+limits.ante	1,10
+mobile.analyticstag	UA-790850-31
+mobile.cashierurl	http://www.swedbank.se
+mobile.debugmode	1
+mobile.fullscreenmode	0
+mobile.gameurl	pid={productgroup}&gameid={gameid}&sound={mobile.soundonbydefault}
+mobile.helpindiv	0
+mobile.lobbyurl	http://10.0.4.1:49991
+mobile.playforrealurl	/casino/PlayMobile?pid={PRODUCT}&gameid={GAMEID}&lang={LANGUAGE}&practice=0
+mobile.resourceroot	10.0.4.1:49981/mobile_dev/
+system.attemptinterval	1
+system.errormail	asdfasdfasd
+system.gridmaxfetch	2000
+1		casino.jurisdiction	2
+1		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/blackjack.xml,games/tablegames/blackjack/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=1&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+1		game.enabled	1
+1		game.operatorenabled	1
+2		game.paytable	2
+4		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/slots/machine1/wildmelon/game.xml,style/generic/slot/menu.xml,style/generic/slot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=4&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+4		flash.urloptions	&demo=2
+4		game.denominations	5,1,0.5
+4		game.enabled	1
+4		game.limits	5
+4		limits.bet	94
+5		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/slots/machine2/luckydiamonds/game.xml,style/generic/slot/menu.xml,style/generic/slot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=5&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+5		game.enabled	1
+6		game.enabled	0
+7		game.enabled	0
+8		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/deuceswild/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=8{flash.urloptions}
+8		game.enabled	0
+8		game.paytable	1
+9		game.paytable	2
+10		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/kingsorbetter/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=10{flash.urloptions}
+10		game.enabled	0
+11		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/minibaccarat.xml,games/tablegames/minibaccarat/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=11&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+11		game.enabled	1
+11		game.roundlimit	20
+11		limits.banker	1,50
+11		limits.lonetie	5,100
+11		limits.player	5,50
+11		limits.tie	5,50
+16		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/jacksorbetter/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=16{flash.urloptions}
+16		game.enabled	0
+16		game.operatorenabled	1
+19		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/kingsorbetter/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=19{flash.urloptions}
+19		game.enabled	0
+22		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/jokerpoker/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=22{flash.urloptions}
+22		game.enabled	0
+28		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/blackjack.xml,games/tablegames/blackjack/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=28&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+28		game.enabled	1
+28		game.operatorenabled	1
+29		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/blackjack.xml,games/tablegames/blackjack/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=29&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+29		game.enabled	1
+30		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/blackjack.xml,games/tablegames/blackjack/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=30&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+30		game.enabled	1
+31		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/roulette_eu.xml,games/tablegames/roulette/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=31&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+31		game.denominations	10,25,100
+31		game.enabled	1
+32		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/roulette_gb.xml,games/tablegames/roulette/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=32&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+32		game.enabled	1
+33		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/roulette_fr.xml,games/tablegames/roulette/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=33&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+33		game.enabled	1
+34		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/beatme.xml,games/tablegames/beatme/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=34&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+34		flash.resourceroot	http://gfsdev.s3.amazonaws.com/casino001_136
+34		game.denominations	5,1
+34		game.enabled	1
+34		game.limits	100
+35		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/casinostud.xml,games/tablegames/casinostud/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=35&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+35		game.enabled	1
+35		limits.ante	1,10
+35		limits.jackpot	1,10
+38		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/deucesandjoker/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=38{flash.urloptions}
+38		game.enabled	0
+40		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine3/jollyroger/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=40&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+40		game.denominations	0.02,0.05,0.2,0.25,0.5,1,0.01,0.1
+40		game.enabled	1
+41		flash.gameurl	https://gfs.s3.amazonaws.com/casino199h_256/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a5+fonts.swf%3a9+fonts_menu.swf%3a5+menu.swf%3a9+../games/goldtrophy_lang.swf%3a1+../../../goldtrophy_main.swf%3a79&gameid=41&pid=<%PRODUCT_ID%>&cashier=2{flash.urloptions}
+41		game.enabled	1
+43		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine4/fruitbonanza/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=43&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+43		game.enabled	0
+44		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/tensorbetter/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=44{flash.urloptions}
+44		game.enabled	0
+47		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/jackpotpoker/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=47{flash.urloptions}
+47		game.enabled	0
+49		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/doublebonus/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=49{flash.urloptions}
+49		game.enabled	0
+52		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/blackjack.xml,games/tablegames/blackjack/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=52&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+52		game.denominations	0.01,1.00,100.00,10000.00
+52		game.enabled	1
+53		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/blackjack.xml,games/tablegames/blackjack/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=53&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+53		game.enabled	1
+54		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/blackjack.xml,games/tablegames/blackjack/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=54&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+54		game.enabled	1
+55		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/blackjack.xml,games/tablegames/blackjack/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=55&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+55		game.enabled	1
+56		game.enabled	1
+56		limits.pairplus	1,50
+57		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/casinoholdem.xml,games/tablegames/casinoholdem/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=57&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+57		game.enabled	1
+57		game.roundlimit	20
+58		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/paigow.xml,games/tablegames/paigow/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=58&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+58		game.enabled	1
+59		game.enabled	1
+60		game.enabled	1
+61		game.enabled	1
+62		game.enabled	1
+63		game.enabled	1
+64		game.enabled	1
+65		game.enabled	1
+66		game.enabled	1
+67		game.enabled	1
+68		game.enabled	1
+69		game.enabled	1
+70		game.enabled	1
+71		game.enabled	1
+72		game.enabled	1
+73		game.enabled	1
+74		game.enabled	1
+75		game.enabled	1
+76		game.enabled	1
+77		game.enabled	1
+78		game.enabled	1
+79		game.enabled	1
+80		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/roulette_eu.xml,games/tablegames/roulette/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=80&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+80		game.enabled	1
+81		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/roulette_gb.xml,games/tablegames/roulette/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=81&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+81		game.enabled	1
+82		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/roulette_fr.xml,games/tablegames/roulette/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=82&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+82		game.enabled	1
+93		flash.gameurl	https://gfs.s3.amazonaws.com/casino199h_256/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a10+fonts.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a18+../games/scratchahoy_lang.swf%3a2+../../../sc_scratchahoy_main.swf%3a60&gameid=93&pid=<%PRODUCT_ID%>&cashier=2{flash.urloptions}
+93		game.enabled	1
+94		flash.gameurl	https://gfs.s3.amazonaws.com/casino199h_256/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a10+fonts.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a18+../games/holeinone_lang.swf%3a2+../../../sc_holeinone_main.swf%3a60&gameid=94&pid=<%PRODUCT_ID%>&cashier=2{flash.urloptions}
+94		game.enabled	1
+97		game.enabled	0
+98		game.enabled	0
+99		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/slots/machine2/aceofspades/game.xml,style/generic/slot/menu.xml,style/generic/slot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=99&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+99		game.enabled	1
+105		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/slots/machine3/belloffortune/game.xml,style/generic/slot/menu.xml,style/generic/slot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=105&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+105		game.enabled	1
+106		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/slots/machine3/speedcash/game.xml,style/generic/slot/menu.xml,style/generic/slot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=106&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+106		game.enabled	1
+107		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/slots/machine3/giftshop/game.xml,style/generic/slot/menu.xml,style/generic/slot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=107&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+107		game.enabled	1
+108		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/slots/machine3/goldengoal/game.xml,style/generic/slot/menu.xml,style/generic/slot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=108&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+108		game.enabled	1
+109		game.enabled	1
+110		game.enabled	1
+111		game.enabled	1
+112		game.enabled	1
+113		game.enabled	1
+114		game.enabled	1
+115		game.enabled	1
+116		game.enabled	1
+117		game.enabled	1
+118		game.enabled	1
+119		game.enabled	1
+120		game.enabled	1
+121		game.enabled	1
+122		game.enabled	1
+123		game.enabled	1
+124		game.enabled	1
+125		game.enabled	1
+126		game.enabled	1
+127		game.enabled	1
+128		game.enabled	1
+129		game.enabled	1
+130		game.enabled	1
+131		game.enabled	1
+132		game.enabled	1
+133		game.enabled	1
+134		game.enabled	1
+135		game.enabled	1
+136		game.enabled	1
+137		game.enabled	1
+138		game.enabled	1
+139		game.enabled	1
+140		game.enabled	1
+141		game.enabled	1
+142		game.enabled	1
+143		game.enabled	1
+144		game.enabled	1
+145		game.enabled	1
+146		game.enabled	1
+147		game.enabled	1
+148		game.enabled	1
+149		game.enabled	1
+150		game.enabled	1
+151		game.enabled	1
+152		game.enabled	1
+153		game.enabled	1
+154		game.enabled	1
+155		game.enabled	1
+156		game.enabled	1
+157		game.enabled	1
+158		game.enabled	1
+159		game.enabled	1
+160		game.enabled	1
+161		game.enabled	1
+162		game.enabled	1
+163		game.enabled	1
+164		game.enabled	1
+165		game.enabled	1
+166		game.enabled	1
+167		game.enabled	1
+168		game.enabled	1
+169		game.enabled	1
+170		game.enabled	1
+171		game.enabled	1
+172		game.enabled	1
+173		game.enabled	1
+174		game.enabled	1
+175		game.enabled	1
+176		game.enabled	1
+177		game.enabled	1
+178		game.enabled	1
+179		game.enabled	1
+180		game.enabled	1
+181		game.enabled	1
+182		game.enabled	1
+183		game.enabled	1
+184		game.enabled	1
+185		game.enabled	1
+186		game.enabled	1
+187		game.enabled	1
+188		game.enabled	1
+189		game.enabled	1
+190		game.enabled	1
+191		game.enabled	1
+192		game.enabled	1
+193		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine3/catsandcash/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=193&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+193		game.enabled	1
+194		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine1/copsnrobbers/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=194&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+194		game.enabled	1
+195		flash.gameurl	https://gfs.s3.amazonaws.com/casino199h_256/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a5+fonts.swf%3a9+fonts_menu.swf%3a5+menu.swf%3a9+../games/tropicalholiday_lang.swf%3a1+../../../tropicalholiday_main.swf%3a79&gameid=195&pid=<%PRODUCT_ID%>&cashier=2{flash.urloptions}
+195		game.enabled	1
+196		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine9/fortuneteller/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=196&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+196		game.denominations	0.01,0.02,0.05,0.1,0.2,0.25
+196		game.enabled	1
+197		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine9/photosafari/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=197&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+197		game.enabled	1
+198		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine9/spacerace/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=198&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+198		game.enabled	1
+199		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine10/5xmagic/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=199&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+199		game.enabled	1
+200		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine10/irishgold/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=200&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+200		game.enabled	1
+200		game.jackpot	{1,2034,0.0025},{2,2035,0.0035},{3,2036,0.0045},{4,2037,0.0055}
+200		game.mysteryjackpot	{1,1,30000,0.7,2034,0.0025,topleft},{1,2,60000,1,2035,0.0035,topright},{1,3,300000,1.5,2036,0.0045,bottomleft},{1,4,1000000,2,2037,0.0055,bottomright}
+211		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=style/generic/tablegame/roulette_am.xml,games/tablegames/roulette/game.xml,brand/generic/logo.xml,style/generic/tablegame/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=211&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+211		game.enabled	1
+225		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine5/enchantedmeadow/game.xml,games/videoslots/machine5/enchantedmeadow/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=225&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+225		game.enabled	1
+226		game.enabled	1
+235		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/fixedodds/hilo/game.xml,style/generic/hilo/menu.xml,style/generic/hilo/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=235&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+235		game.enabled	1
+237		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine11/richesofra/game.xml,games/videoslots/machine11/richesofra/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=237&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+237		game.enabled	1
+238		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine11/dragonship/game.xml,games/videoslots/machine11/dragonship/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=238&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+238		game.enabled	1
+239		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/fixedodds/keno/game.xml,style/sgg/keno/menu.xml,style/sgg/keno/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=239&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+239		game.enabled	1
+241		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine12/pearllagoon/game.xml,games/videoslots/machine12/pearllagoon/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=241&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+241		game.enabled	1
+242		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine13/jewelbox/game.xml,games/videoslots/machine13/jewelbox/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=242&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+242		game.enabled	1
+243		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine14/aztecidols/game.xml,games/videoslots/machine14/aztecidols/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=243&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+243		game.enabled	1
+243		game.nevergamble	0
+244		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine2/gunslinger/game.xml,games/videoslots/machine2/gunslinger/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=244&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+244		game.enabled	1
+245		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine12/myth/game.xml,games/videoslots/machine12/myth/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=241&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+245		game.enabled	1
+246		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine12/goldtrophy2/game.xml,games/videoslots/machine12/goldtrophy2/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=241&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+246		game.enabled	1
+247		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine4/tivolibonanza/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=43&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+247		game.enabled	1
+249		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine11/vares/game.xml,games/videoslots/machine11/vares/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=249&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+249		game.enabled	1
+250		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine5/wildblood/game.xml,games/videoslots/machine5/wildblood/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=250&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+250		game.enabled	1
+250		game.operatorenabled	1
+251		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine16/leprechaungoesegypt/game.xml,games/videoslots/machine16/leprechaungoesegypt/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=251&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+251		game.enabled	1
+252		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine11/gumball/game.xml,games/videoslots/machine11/gumball/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=252&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+252		flash.resourceroot	http://10.0.4.1:49981/flash_gamedev/casino21800_quicktest
+252		game.enabled	1
+252		game.mysteryjackpot	{1,1,100,0.05,2054,0.0001,topleft},{1,2,200,0.05,2055,0.0001,topright},{1,3,300,0.05,2056,0.0001,bottomleft},{1,4,400,0.03,2057,0.0001,bottomright}
+253		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine14/ninjafruits/game.xml,games/videoslots/machine14/ninjafruits/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=253&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+253		game.enabled	1
+254		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/gridslots/machine1/trollhunters/game.xml,games/gridslots/machine1/trollhunters/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=254&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+254		game.enabled	1
+255		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine20/jazzofneworleans/game.xml,style/bison/videoslot/menu.xml,style/bison/videoslot/popup.xml,games/videoslots/common/jackpotx.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=255&pid=<%PRODUCT_ID%>&language=<%LANG%>
+255		game.enabled	1
+255		game.gamblelimit.amount	4
+255		game.gamblelimit.rounds	1
+256		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine21/cowboytreasure/game.xml,style/bison/videoslot/menu.xml,style/bison/videoslot/popup.xml,games/videoslots/common/jackpotx.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=256&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+256		game.enabled	1
+257		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine17/ragetoriches/game.xml,games/videoslots/machine17/ragetoriches/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=257&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+257		game.enabled	1
+258		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine22/ringthebells/game.xml,style/bison/videoslot/menu3x3.xml,style/bison/videoslot/popup.xml,games/videoslots/common/jackpotx.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=258&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+258		game.enabled	1
+259		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine30/enchantedcrystals/game.xml,games/videoslots/machine30/enchantedcrystals/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=259&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+259		game.enabled	1
+259		game.jackpot	{1,2030,0.002},{2,2031,0.0035}
+260		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine11/casinohunks/game.xml,games/videoslots/machine11/casinohunks/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=260&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+260		game.enabled	1
+261		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine23/gemdrop/game.xml,style/bison/videoslot/menu.xml,style/bison/videoslot/popup.xml,games/videoslots/common/jackpotx.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=263&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+262		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/gridslots/machine1/energoonz/game.xml,games/gridslots/machine1/energoonz/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=262&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+262		game.enabled	1
+263		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine11/casinobabes/game.xml,games/videoslots/machine11/casinobabes/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=263&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+263		game.enabled	1
+263		game.nevergamble	0
+264		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine24/mrtoad/game.xml,style/bison/videoslot/menu.xml,style/bison/videoslot/popup.xml,games/videoslots/common/jackpotx.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=264&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+265		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine9/kummeli/game.xml,games/videoslots/machine9/kummeli/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=265&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+265		game.enabled	1
+266		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine25/piggybank/game.xml,style/bison/videoslot/menu.xml,style/bison/videoslot/popup.xml,games/videoslots/common/jackpotx.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=266&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+266		game.enabled	1
+267		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine26/huntforgold/game.xml,style/bison/videoslot/menu.xml,style/bison/videoslot/popup.xml,games/videoslots/common/jackpotx.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=267&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+267		game.enabled	1
+269		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/jacksorbetter/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=269{flash.urloptions}
+269		game.bonusgame	1
+269		game.enabled	1
+269		game.paytable	1
+270		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/deuceswild/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=270{flash.urloptions}
+270		game.bonusgame	0
+270		game.enabled	1
+270		game.paytable	3
+271		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/jokerpoker/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=271{flash.urloptions}
+271		game.enabled	1
+272		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/kingsorbetter/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=272{flash.urloptions}
+272		game.bonusgame	1
+272		game.enabled	1
+272		game.paytable	0
+273		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/tensorbetter/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=273{flash.urloptions}
+273		game.enabled	1
+274		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/doublebonus/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=274{flash.urloptions}
+274		game.enabled	1
+275		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/deucesandjoker/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=275{flash.urloptions}
+275		game.enabled	1
+276		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videopokers/jackpotpoker/game.xml,games/videopokers/common/ui.xml,style/generic/videopoker/menu.xml,style/generic/videopoker/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&pid=<%PRODUCT_ID%>&language=<%LANG%>&gameid=276{flash.urloptions}
+276		game.enabled	1
+277		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine14/chinesenewyear/game.xml,games/videoslots/machine14/chinesenewyear/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=277&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+277		game.enabled	1
+278		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine13/ladyoffortune/game.xml,games/videoslots/machine13/ladyoffortune/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=278&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+278		game.denominations	0.25
+278		game.enabled	1
+279		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine20/oilybusiness/game.xml,style/bison/videoslot/menu.xml,style/bison/videoslot/popup.xml,games/videoslots/common/jackpotx.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=279&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+280		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine27/spinandwin/game.xml,style/bison/videoslot/menu.xml,style/bison/videoslot/popup.xml,games/videoslots/common/jackpotx.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=280&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+281		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine28/monstersmash/game.xml,style/bison/videoslot/menu.xml,style/bison/videoslot/popup.xml,games/videoslots/common/jackpotx.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=281&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+282		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine31/pearlsofindia/game.xml,games/videoslots/machine31/pearlsofindia/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=282&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+282		game.enabled	1
+283		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine29/mysteryjoker/game.xml,games/videoslots/machine29/mysteryjoker/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=283&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+283		game.enabled	1
+284		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine5/crazycows/game.xml,games/videoslots/machine5/crazycows/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=284&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+284		game.enabled	1
+285		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/gridslots/machine1/goldenticket/game.xml,games/gridslots/machine1/goldenticket/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=285&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+285		game.enabled	1
+286		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/gridslots/machine2/gemix/game.xml,games/gridslots/machine2/gemix/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=286&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+286		game.enabled	1
+287		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine32/towerquest/game.xml,games/videoslots/machine32/towerquest/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=287&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+287		game.enabled	1
+288		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine13/merryxmas/game.xml,games/videoslots/machine13/merryxmas/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=288&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+288		game.denominations	0.01,0.1,1
+288		game.enabled	1
+290		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine35/goldenlegend/game.xml,games/videoslots/machine35/goldenlegend/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=290&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+290		game.jackpot	{1,2027,0.0025},{2,2028,0.0025},{4,2029,0.1}
+291		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine34/pimped/game.xml,games/videoslots/machine34/pimped/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=291&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+291		game.enabled	1
+291		game.gamblelimit.amount	4
+291		game.gamblelimit.rounds	1
+291		game.jackpot	{1,2034,0.002}
+291		game.mysteryjackpot	{1,1,1,2,2034,0.0001,topright}
+292		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine39/spinparty/game.xml,games/videoslots/machine39/spinparty/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=292&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+292		game.operatorenabled	1
+293		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine16/eastereggs/game.xml,games/videoslots/machine16/eastereggs/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=293&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+294		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine36/wildnorth/game.xml,games/videoslots/machine36/wildnorth/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=294&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+294		flash.urloptions	&RemoveExit=true
+294		game.jackpot	{1,2054,0.01},{2,2055,0.01},{3,2056,0.01}
+294		game.mysteryjackpot	{1,1,10,10,2054,0.01,topleft},{1,2,10,10,2055,0.01,topleft},{1,3,10,10,2056,0.01,bottomleft}
+295		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine37/superflip/game.xml,games/videoslots/machine37/superflip/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=295&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+296		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine37/danishflip/game.xml,games/videoslots/machine37/danishflip/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=296&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+297		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine38/eyeofthekraken/game.xml,games/videoslots/machine38/eyeofthekraken/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=297&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+298		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine34/masquerade/game.xml,games/videoslots/machine34/masquerade/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=298&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+299		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine10/kaffebarbarbaren/game.xml,games/videoslots/machine10/kaffebarbarbaren/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=299&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+299		game.denominations	0.25,0.05
+300		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/gridslots/machine3/cloudquest/game.xml,games/gridslots/machine3/cloudquest/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=300&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+300		game.enabled	1
+300		game.minspinningtime	3000
+301		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine9/aztecprincess/game.xml,games/videoslots/machine9/aztecprincess/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=301&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+301		flash.urloptions	&creditdisplay=1
+302		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine40/wizardofgems/game.xml,games/videoslots/machine40/wizardofgems/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=302&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+302		flash.urloptions	&creditdisplay=1
+303		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine48/grimmuerto/game.xml,games/videoslots/machine48/grimmuerto/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=303&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+303		flash.resourceroot	http://10.0.4.1:49981/flash_gamedev/casino_grim_muerto000
+304		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine13/sambacarnival/game.xml,games/videoslots/machine13/sambacarnival/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=304&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+305		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine35/happyhalloween/game.xml,games/videoslots/machine35/happyhalloween/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=305&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+305		flash.urloptions	&creditdisplay=1
+305		game.denominations	0.01,0.02,0.04,0.06,0.08,0.1
+305		game.nevergamble	0
+307		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine41/firejoker/game.xml,games/videoslots/machine41/firejoker/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=307&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+307		flash.resourceroot	http://10.0.4.1:49981/flash_gamedev/casino_firejoker000
+308		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine16/turkishvillagekid/game.xml,games/videoslots/machine16/turkishvillagekid/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=308&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+308		flash.resourceroot	http://10.0.4.1:49981/flash_gamedev/casino_turkishvillagekid000
+309		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine29/christmasjoker/game.xml,games/videoslots/machine29/christmasjoker/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=309&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+310		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine43/bookofdead/game.xml,games/videoslots/machine43/bookofdead/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=310&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+310		flash.resourceroot	http://10.0.4.1:49981/flash_gamedev/casino_bookofdead000
+310		flash.urloptions	&creditdisplay=1
+311		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine44/sailsofgold/game.xml,games/videoslots/machine44/sailsofgold/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=311&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+311		flash.resourceroot	http://10.0.4.1:49981/flash_gamedev/casino_sailsofgold000
+312		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine45/goldencaravan/game.xml,games/videoslots/machine45/goldencaravan/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=312&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+312		flash.resourceroot	http://10.0.4.1:49981/flash_gamedev/casino_goldencaravan000
+313		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine9/charterrejsen/game.xml,games/videoslots/machine9/charterrejsen/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=313&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+313		flash.resourceroot	http://10.0.4.1:49981/flash_gamedev/casino_charterrejsen000
+314		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine29/bohemiajoker/game.xml,games/videoslots/machine29/bohemiajoker/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=309&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+314		flash.resourceroot	http://10.0.4.1:49981/flash_gamedev/casino_bohemiajoker000
+315		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine47/leprechaungoestohell/game.xml,games/videoslots/machine47/leprechaungoestohell/menu.xml,style/generic/videoslot/popup.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=315&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+315		flash.resourceroot	http://10.0.4.1:49981/flash_gamedev/casino_leprechaun_goes_to_hell000
+315		game.enabled	1
+315		game.jackpot	{3,84,0.012},{4,85,0.024}
+315		game.operatorenabled	1
+318		flash.gameurl	
+318		game.defaultdenomination	12
+318		game.enabled	1
+318		game.operatorenabled	1
+318		game.resourceroot	http://10.0.4.1:49981/megaton_dev/
+99291		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine34/pimped/game.xml,games/videoslots/machine34/pimped/menu.xml,style/generic/videoslot/popup.xml&baseURL={FLASHROOT}/&loader=brand/generic/loader.swf&gameid=259&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+100002		game.enabled	1
+100002		mobile.gamefolder	jacksorbettermobile
+100004		game.enabled	1
+100004		mobile.gamefolder	wildmelon
+100005		game.enabled	1
+100005		mobile.gamefolder	luckydiamonds
+100008		game.enabled	1
+100008		mobile.gamefolder	deuceswildmobile
+100009		game.enabled	1
+100009		mobile.gamefolder	jokerpokermobile
+100010		game.enabled	1
+100010		mobile.gamefolder	kingsorbettermobile
+100011		game.enabled	1
+100011		limits.banker	15,55
+100011		limits.lonetie	15,55
+100011		limits.player	15,550
+100011		limits.tie	15,55
+100011		mobile.gamefolder	minibaccarat
+100016		game.enabled	1
+100016		mobile.gamefolder	jacksorbettershmobile
+100017		game.enabled	1
+100017		game.paytable	2
+100017		mobile.gamefolder	deuceswildshmobile
+100018		game.enabled	1
+100018		mobile.gamefolder	jokerpokershmobile
+100019		game.enabled	1
+100019		mobile.gamefolder	kingsorbettermobile
+100020		game.enabled	1
+100020		mobile.gamefolder	jacksorbettermobile
+100021		game.enabled	1
+100021		mobile.gamefolder	deuceswildmobile
+100022		game.enabled	1
+100022		mobile.gamefolder	jokerpokermobile
+100023		game.enabled	1
+100023		mobile.gamefolder	kingsorbettermobile
+100031		game.enabled	1
+100031		mobile.gamefolder	roulette
+100034		game.enabled	1
+100034		game.limits	100, 500, 2500
+100035		game.enabled	1
+100035		limits.ante	1,10
+100035		limits.jackpot	1,1
+100035		mobile.gamefolder	casinostud
+100036		game.enabled	1
+100036		mobile.gamefolder	tensorbettermobile
+100037		game.enabled	1
+100037		mobile.gamefolder	doublebonusmobile
+100038		game.enabled	1
+100038		mobile.gamefolder	deucesandjokermobile
+100039		game.enabled	1
+100039		mobile.gamefolder	jackpotpokermobile
+100040		game.enabled	1
+100040		mobile.gamefolder	jollyroger
+100043		game.enabled	1
+100043		mobile.gamefolder	fruitbonanzamobile
+100044		game.enabled	1
+100044		mobile.gamefolder	tensorbettermobile
+100045		game.enabled	1
+100045		mobile.gamefolder	doublebonusmobile
+100046		game.enabled	1
+100046		mobile.gamefolder	deucesandjokermobile
+100047		game.enabled	1
+100047		mobile.gamefolder	jackpotpokershmobile
+100048		game.enabled	1
+100048		mobile.gamefolder	tensorbettermobile
+100049		game.enabled	1
+100049		mobile.gamefolder	doublebonusmobile
+100050		game.enabled	1
+100050		mobile.gamefolder	deucesandjokermobile
+100051		game.enabled	1
+100051		mobile.gamefolder	jackpotpokermobile
+100052		game.denominations	100,50,500,2000
+100052		game.enabled	1
+100052		game.limits	1000,500,5000,20000
+100052		game.roundlimit	78
+100052		mobile.gamefolder	blackjack
+100053		game.enabled	1
+100053		mobile.gamefolder	blackjack
+100054		game.enabled	1
+100054		mobile.gamefolder	blackjack
+100055		game.enabled	1
+100055		mobile.gamefolder	blackjack
+100056		game.enabled	1
+100056		limits.ante	1,100
+100056		limits.pairplus	5,20
+100056		mobile.gamefolder	3cardpoker
+100057		game.enabled	1
+100057		game.roundlimit	99
+100057		limits.acesplus	6,11
+100057		limits.ante	10,50
+100057		mobile.gamefolder	casinoholdem
+100058		game.enabled	1
+100058		mobile.gamefolder	paigowpokermobile
+100059		game.enabled	1
+100059		mobile.gamefolder	jacksorbettermobile
+100060		game.enabled	1
+100060		mobile.gamefolder	deuceswildmobile
+100061		game.enabled	1
+100061		mobile.gamefolder	jokerpokermobile
+100062		game.enabled	1
+100062		mobile.gamefolder	kingsorbettermobile
+100063		game.enabled	1
+100063		mobile.gamefolder	tensorbettermobile
+100064		game.enabled	1
+100064		mobile.gamefolder	doublebonusmobile
+100065		game.enabled	1
+100065		mobile.gamefolder	deucesandjokermobile
+100066		game.enabled	1
+100066		mobile.gamefolder	jacksorbettermobile
+100067		game.enabled	1
+100067		mobile.gamefolder	deuceswildmobile
+100068		game.enabled	1
+100068		mobile.gamefolder	jokerpokermobile
+100069		game.enabled	1
+100069		mobile.gamefolder	kingsorbettermobile
+100070		game.enabled	1
+100070		mobile.gamefolder	tensorbettermobile
+100071		game.enabled	1
+100071		mobile.gamefolder	doublebonusmobile
+100072		game.enabled	1
+100072		mobile.gamefolder	deucesandjokermobile
+100073		game.enabled	1
+100073		mobile.gamefolder	jacksorbettermobile
+100074		game.enabled	1
+100074		mobile.gamefolder	deuceswildmobile
+100075		game.enabled	1
+100075		mobile.gamefolder	jokerpokermobile
+100076		game.enabled	1
+100076		mobile.gamefolder	kingsorbettermobile
+100077		game.enabled	1
+100077		mobile.gamefolder	tensorbettermobile
+100078		game.enabled	1
+100078		mobile.gamefolder	doublebonusmobile
+100079		game.enabled	1
+100079		mobile.gamefolder	deucesandjokermobile
+100093		game.enabled	1
+100093		mobile.gamefolder	scratchahoy
+100094		game.enabled	1
+100094		mobile.gamefolder	holeinone
+100099		game.enabled	1
+100099		mobile.gamefolder	aceofspades
+100105		game.enabled	1
+100105		mobile.gamefolder	belloffortune
+100106		game.enabled	1
+100106		mobile.gamefolder	speedcash
+100107		game.enabled	1
+100107		mobile.gamefolder	giftshop
+100108		game.enabled	1
+100108		mobile.gamefolder	goldengoal
+100196		game.enabled	1
+100196		mobile.gamefolder	fortuneteller
+100197		game.enabled	1
+100197		mobile.gamefolder	photosafarimobile
+100198		game.enabled	1
+100198		mobile.gamefolder	spaceracemobile
+100199		game.enabled	1
+100199		mobile.gamefolder	fivexmagic
+100200		game.enabled	1
+100200		mobile.gamefolder	irishgold
+100211		game.enabled	1
+100211		mobile.gamefolder	roulette
+100225		game.enabled	1
+100225		mobile.gamefolder	enchantedmeadowmobile
+100235		game.enabled	1
+100235		mobile.gamefolder	hilo
+100237		game.enabled	1
+100237		mobile.gamefolder	richesoframobile
+100238		game.enabled	1
+100238		mobile.gamefolder	dragonshipmobile
+100239		game.enabled	1
+100239		mobile.gamefolder	kenomobile
+100241		game.enabled	1
+100241		game.mysteryjackpot	{1,1,10,1,2030,0.0025,bottomright},{1,2,10,2,2031,0.0035,bottomleft},{1,3,10,3,2032,0.0045,topright},{1,4,10,4,2033,0.0055,topleft}
+100241		mobile.gamefolder	pearllagoonmobile
+100242		game.enabled	1
+100242		mobile.gamefolder	jewelboxmobile
+100243		game.enabled	1
+100243		mobile.gamefolder	aztecidolsmobile
+100245		game.enabled	1
+100245		mobile.gamefolder	mythmobile
+100246		game.enabled	1
+100246		mobile.gamefolder	goldtrophy2mobile
+100247		game.enabled	1
+100247		mobile.gamefolder	tivolibonanzamobile
+100250		game.enabled	1
+100250		mobile.gamefolder	wildbloodmobile
+100251		game.enabled	1
+100251		mobile.gamefolder	leprechaungoesegyptmobile
+100252		game.enabled	1
+100252		mobile.gamefolder	gumballmobile
+100253		game.enabled	1
+100253		mobile.gamefolder	ninjafruitsmobile
+100254		game.enabled	1
+100254		mobile.gamefolder	trollhuntersmobile
+100255		game.enabled	1
+100255		mobile.gamefolder	jazzofneworleansmobile
+100256		game.enabled	1
+100256		mobile.gamefolder	cowboytreasuremobile
+100257		game.enabled	1
+100257		mobile.gamefolder	ragetorichesmobile
+100258		game.enabled	1
+100258		mobile.gamefolder	ringthebellsmobile
+100259		game.enabled	1
+100259		mobile.gamefolder	enchantedcrystalsmobile
+100260		game.denominations	0.01,0.02,0.05,0.1,0.2,0.25,0.50,1
+100260		game.enabled	1
+100260		mobile.gamefolder	casinohunksmobile
+100261		mobile.gamefolder	gemdropmobile
+100262		game.denominations	0.02,0.1
+100262		game.enabled	1
+100262		mobile.gamefolder	energoonzmobile
+100263		game.denominations	0.01,0.02,0.05,0.1,0.2,0.25,0.50,1
+100263		game.enabled	1
+100263		mobile.gamefolder	casinobabesmobile
+100264		mobile.gamefolder	mrtoadmobile
+100265		game.enabled	1
+100265		mobile.gamefolder	kummelimobile
+100266		game.enabled	1
+100266		mobile.gamefolder	piggybankmobile
+100267		game.enabled	1
+100267		mobile.gamefolder	huntforgoldmobile
+100268		game.enabled	1
+100268		mobile.gamefolder	blackjack
+100269		game.bonusgame	1
+100269		game.enabled	1
+100269		game.paytable	1
+100269		mobile.gamefolder	jacksorbettermobile
+100270		game.bonusgame	0
+100270		game.enabled	1
+100270		game.paytable	2
+100270		mobile.gamefolder	deuceswildmobile
+100271		game.enabled	1
+100271		mobile.gamefolder	jokerpokermobile
+100272		flash.gameurl	kingsorbettermobile{flash.urloptions}
+100272		game.enabled	1
+100272		mobile.gamefolder	kingsorbettermobile
+100273		flash.gameurl	tensorbettermobile{flash.urloptions}
+100273		game.enabled	1
+100273		mobile.gamefolder	tensorbettermobile
+100274		flash.gameurl	doublebonusmobile{flash.urloptions}
+100274		game.enabled	1
+100274		mobile.gamefolder	doublebonusmobile
+100275		flash.gameurl	deucesandjokermobile{flash.urloptions}
+100275		game.enabled	1
+100275		mobile.gamefolder	deucesandjokermobile
+100276		game.bonusgame	0
+100276		game.enabled	1
+100276		game.paytable	2
+100276		mobile.gamefolder	jackpotpokermobile
+100277		game.enabled	1
+100277		game.quickstop	0
+100277		mobile.gamefolder	chinesenewyearmobile
+100278		game.enabled	1
+100278		mobile.gamefolder	ladyoffortunemobile
+100279		mobile.gamefolder	oilybusinessmobile
+100280		mobile.gamefolder	spinandwinmobile
+100281		mobile.gamefolder	monstersmashmobile
+100282		game.enabled	1
+100282		mobile.gamefolder	pearlsofindiamobile
+100283		game.enabled	1
+100283		mobile.gamefolder	mysteryjokermobile
+100284		game.enabled	1
+100284		game.jackpot	{1,2057,0.01},{2,2056,0.01},{3,2055,0.01}
+100284		game.mysteryjackpot	{0,1,10,10,2057,0.01,topright},{0,2,20,10,2056,0.01,bottomright},{0,3,30,10,2055,0.01,bottomright}
+100284		mobile.gamefolder	crazycowsmobile
+100285		game.enabled	1
+100285		mobile.gamefolder	goldenticketmobile
+100286		game.enabled	1
+100286		mobile.gamefolder	gemixmobile
+100287		mobile.gamefolder	towerquestmobile
+100288		game.enabled	1
+100288		game.limits	5
+100288		mobile.gamefolder	merryxmasmobile
+100289		game.enabled	1
+100289		game.maxwinamount	2500
+100289		limits.ante	1,2000
+100289		limits.jackpot	1,1
+100289		mobile.gamefolder	casinostud
+100290		game.jackpot	{1,2055,0.01},{2,2056,0.01},{3,2057,0.01}
+100290		game.mysteryjackpot	{1,1,10,10,2055,0.01,topleft},{1,2,10,10,2056,0.01,topright},{1,3,10,10,2057,0.01,topright}
+100290		mobile.gamefolder	goldenlegendmobile
+100291		flash.gameurl	pimpedmobile{flash.urloptions}
+100291		game.enabled	1
+100291		mobile.gamefolder	pimpedmobile
+100292		mobile.gamefolder	spinpartymobile
+100293		game.nevergamble	1
+100293		mobile.gamefolder	eastereggsmobile
+100294		game.jackpot	{1,2054,0.01},{2,2055,0.01},{3,2056,0.01},{4,2057,0.01}
+100294		mobile.debugmode	0
+100294		mobile.gamefolder	wildnorthmobile
+100295		game.enabled	1
+100295		game.mysteryjackpot	{1,1,10,1,2030,0.0025,bottomright},{1,2,10,2,2031,0.0035,bottomleft},{1,3,10,3,2032,0.0045,topright},{1,4,10,4,2033,0.0055,topleft}
+100295		mobile.gamefolder	superflipmobile
+100296		mobile.gamefolder	danishflipmobile
+100297		mobile.gamefolder	eyeofthekrakenmobile
+100298		mobile.gamefolder	masquerademobile
+100299		game.enabled	1
+100299		mobile.gamefolder	kaffebarbarbarenmobile
+100300		mobile.gamefolder	cloudquestmobile
+100301		mobile.gamefolder	aztecprincess
+100302		mobile.gamefolder	wizardofgemsmobile
+100303		mobile.gamefolder	grimmuertomobile
+100303		mobile.resourceroot	http://10.0.4.1:49981/mobile_gamedev/mobile_grim_muerto000/
+100304		mobile.gamefolder	sambacarnivalmobile
+100305		game.enabled	1
+100305		game.nevergamble	0
+100305		mobile.gamefolder	happyhalloweenmobile
+100307		mobile.gamefolder	firejokermobile
+100307		mobile.resourceroot	http://10.0.4.1:49981/mobile_gamedev/mobile_firejoker000/
+100308		mobile.gamefolder	turkishvillagekidmobile
+100308		mobile.resourceroot	http://10.0.4.1:49981/mobile_gamedev/mobile_turkish_village_kid000/
+100309		game.denominations	0.1,0.2,0.3,0.4,0.6,1
+100309		game.enabled	1
+100309		mobile.gamefolder	christmasjokermobile
+100310		mobile.gamefolder	bookofdeadmobile
+100311		game.denominations	0.01,0.02,0.04,0.06,0.08,0.10,0.20,0.40,0.60,0.80,1.00
+100311		mobile.gamefolder	sailsofgoldmobile
+100311		mobile.resourceroot	http://10.0.4.1:49981/mobile_gamedev/mobile_sails_of_gold000/
+100312		game.denominations	0.01,0.02,0.04,0.06,0.08,0.10,0.20,0.40,0.60,0.80,1.00,2.00
+100312		mobile.gamefolder	goldencaravanmobile
+100312		mobile.resourceroot	http://10.0.4.1:49981/mobile_gamedev/mobile_golden_caravan000/
+100313		mobile.gamefolder	charterrejsenmobile
+100313		mobile.resourceroot	http://10.0.4.1:49981/mobile_gamedev/mobile_charterrejsen000/
+100314		mobile.gamefolder	bohemiajokermobile
+100314		mobile.resourceroot	http://10.0.4.1:49981/mobile_gamedev/mobile_bohemiajoker000/
+100315		game.enabled	1
+100315		mobile.gamefolder	leprechaungoestohellmobile
+100315		mobile.resourceroot	http://10.0.4.1:49981/mobile_gamedev/mobile_leprechaun_goes_to_hell000/
+100318		game.defaultdenomination	500
+100318		game.enabled	1
+100318		game.resourceroot	http://10.0.4.1:49981/megaton_dev/
+100318		limits.single	1,50
+100318		limits.total	1,101
+100318		mobile.gamefolder	
+990291		mobile.gamefolder	pimpedmobile
+247	ARS	game.denominations	
+100031	ARS	game.denominations	5,25,50,100
+100035	ARS	game.denominations	5,25,50,100
+100052	ARS	game.denominations	5,25,50,100
+100056	ARS	game.denominations	5,25,50,100
+100057	ARS	game.denominations	5,10,25,50,100
+100057	AUD	game.denominations	1,5,10,25,50
+100057	BGN	game.denominations	1,5,10,25,50
+100011	BNG	game.denominations	1,5,25,100
+100031	BNG	game.denominations	1,5,25,100
+100035	BNG	game.denominations	1,5,25,100
+100052	BNG	game.denominations	1,5,25,100
+100056	BNG	game.denominations	1,5,25,100
+100057	BNG	game.denominations	1,5,25,100
+100057	BRL	game.denominations	1,5,10,25,50
+100057	CAD	game.denominations	1,5,10,25,50
+100057	CHF	game.denominations	1,5,10,25,50
+100031	CZK	game.denominations	10,50,100,500
+100035	CZK	game.denominations	10,50,100,500
+100052	CZK	game.denominations	10,50,100,500
+100056	CZK	game.denominations	10,50,100,500
+100057	CZK	game.denominations	25,50,100,500
+100011	DKK	game.denominations	10,50,100,500
+100031	DKK	game.denominations	10,50,100,500
+100035	DKK	game.denominations	10,50,100,500
+100052	DKK	game.denominations	10,50,100,500
+100056	DKK	game.denominations	10,50,100,500
+100057	DKK	game.denominations	10,25,50,100,500
+100031	EEK	game.denominations	10,50,100,500
+100035	EEK	game.denominations	10,50,100,500
+100052	EEK	game.denominations	10,50,100,500
+100056	EEK	game.denominations	10,50,100,500
+100057	EEK	game.denominations	10,50,100,500
+235	EUR	game.bonusgame	0
+235	EUR	game.paytable	2
+100043	EUR	game.denominations	0.1
+100057	EUR	game.denominations	1,5,10,25,50
+100235	EUR	game.denominations	0.1,0.2,0.25,0.50,1,100
+100057	GBP	game.denominations	1,5,10,25,50
+100057	HKD	game.denominations	10,25,50,100,500
+100011	HRK	game.denominations	10,50,100,500
+100031	HRK	game.denominations	10,50,100,500
+100035	HRK	game.denominations	10,50,100,500
+100052	HRK	game.denominations	10,50,100,500
+100056	HRK	game.denominations	10,50,100,500
+100057	HRK	game.denominations	10,50,100,500
+57	HUF	game.denominations	100,500,2000,10000
+57	HUF	limits.acesplus	1,5
+57	HUF	limits.ante	1,9
+100031	HUF	game.denominations	100,500,2000,10000
+100035	HUF	game.denominations	100,500,2000,10000
+100052	HUF	game.denominations	100,500,2000,10000
+100056	HUF	game.denominations	100,500,2000,10000
+100057	HUF	game.denominations	100,500,1000,2000,10000
+100057	HUF	limits.acesplus	2,12
+1	IDR	game.denominations	1,5,10
+100057	INR	game.denominations	25,50,100,500
+100057	ISK	game.denominations	50,100,500,2000
+100011	JPY	game.denominations	100,500,2000,10000
+100031	JPY	game.denominations	100,500,2000,10000
+100035	JPY	game.denominations	100,500,2000,10000
+100052	JPY	game.denominations	100,500,2000,10000
+100056	JPY	game.denominations	100,500,2000,10000
+100057	JPY	game.denominations	100,500,1000,2000,10000
+100011	LTL	game.denominations	5,25,50,100
+100031	LTL	game.denominations	5,25,50,100
+100035	LTL	game.denominations	5,25,50,100
+100052	LTL	game.denominations	5,25,50,100
+100056	LTL	game.denominations	5,25,50,100
+100057	LTL	game.denominations	5,25,50,100
+100057	MXN	game.denominations	10,25,50,100,500
+100057	MYR	game.denominations	5,10,25,50,100
+100011	NOK	game.denominations	10,50,100,500
+100031	NOK	game.denominations	10,50,100,500
+100035	NOK	game.denominations	10,50,100,500
+100052	NOK	game.denominations	10,50,100,500
+100056	NOK	game.denominations	10,50,100,500
+100057	NOK	game.denominations	10,25,50,100,500
+100057	NZD	game.denominations	1,5,10,25,50
+100011	PLN	game.denominations	5,25,50,100
+100031	PLN	game.denominations	5,25,50,100
+100035	PLN	game.denominations	5,25,50,100
+100052	PLN	game.denominations	5,25,50,100
+100056	PLN	game.denominations	5,25,50,100
+100057	PLN	game.denominations	5,10,25,50,100
+100057	RMB	game.denominations	10,25,50,100,500
+100011	RON	game.denominations	5,25,50,100
+100031	RON	game.denominations	5,25,50,100
+100035	RON	game.denominations	5,25,50,100
+100052	RON	game.denominations	5,25,50,100
+100056	RON	game.denominations	5,25,50,100
+100057	RON	game.denominations	5,10,25,50,100
+100031	RUB	game.denominations	25,100,500,2000
+100035	RUB	game.denominations	25,100,500,2000
+100052	RUB	game.denominations	25,100,500,2000
+100056	RUB	game.denominations	25,100,500,2000
+100057	RUB	game.denominations	25,100,500,2000
+100031	SEK	game.denominations	10,50,100,500
+100035	SEK	game.denominations	10,50,100,500
+100052	SEK	game.denominations	10,50,100,500
+100056	SEK	game.denominations	10,50,100,500
+100057	SEK	game.denominations	10,25,50,100,500
+100057	SGD	game.denominations	1,5,10,25,50
+100057	THB	game.denominations	25,50,100,500,2000
+100011	TRY	game.denominations	1,5,25,100
+100031	TRY	game.denominations	1,5,25,100
+100035	TRY	game.denominations	1,5,25,100
+100052	TRY	game.denominations	1,5,25,100
+100056	TRY	game.denominations	1,5,25,100
+100057	TRY	game.denominations	1,5,25,100
+100057	TWD	game.denominations	25,50,100,500,2000
+100057	USD	game.denominations	1,5,10,25,50
+100031	YTL	game.denominations	1,5,25,100
+100035	YTL	game.denominations	1,5,25,100
+100052	YTL	game.denominations	1,5,25,100
+100056	YTL	game.denominations	1,5,25,100
+100057	YTL	game.denominations	1,5,25,100
+100057	ZAR	game.denominations	10,25,50,100,500
+124345646468				game.allowhelpoverride	0
+aaaaaa		1		game.defaultlimit	0
+asdfghjk				game.allowhelpoverride	1
+dasdsadsadsa				system.errormail	aasdsadsadsadsadsadsadasds
+jd1				game.nevergamble	0
+jd2				game.nevergamble	0
+jd3				game.nevergamble	0
+jdtest				game.allowhelpoverride	1
+jdtest		123	EUR	game.brand	test brand.updated 3
+jdtest2		3		game.allowhelpoverride	0
+jdtest2		1	EUR	game.allowhelpoverride	1
+local				game.coreserver	127.0.0.1:9000
+MBTEST				game.defaultdenomination	17
+ölkj				casino.jurisdiction	
+qwe				casino.systemcurrency	SEK
+sdasdasd		1		game.defaultlines	2
+ss				game.allowhelpoverride	0
+ssss			dd	game.allowhelpoverride	0
+ssssad			dd	game.allowhelpoverride	0
+stuff		28		limits.bet	1,60
+stuff		29		limits.bet	1,60
+stuff		52		limits.bet	1,60
+stuff		100053		limits.bet	1,60
+test		1		game.enabled	0
+test1		123	SEK	game.allowhelpoverride	1
+test1		1234	SEK	game.allowhelpoverride	1
+TestA		318		game.defaultdenomination	45
+TestB		5		game.defaultdenomination	12
+1					flash.urloptions	&autospins=10,20,30,40,1050&defaultautospins=1
+1					game.allowhelpoverride	0
+1					game.allowhistoryoverride	0
+1					game.minroundtime	0
+1					game.minspinningtime	0
+1					game.showingamefreegamemessage	1
+1					gmt.timezone	W. Europe Standard Time
+1					help.showlastmonthrtp	0
+1					system.errormail	asdfasdfasd
+1			1		game.operatorenabled	1
+1			5		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/slots/machine2/luckydiamonds/game.xml,style/generic/slot/menu.xml,style/generic/slot/popup.xml,games/videoslots/common/mysteryjackpot.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=5&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+1			5		game.jackpot	{1,2066,0.003},{2,2067,0.0045},{3,2068,0.0075},{4,2069,0.0175}
+1			5		game.mysteryjackpot	{1,1,25000,1,2066,0.003,bottomright},{1,2,75000,1,2067,0.0045,bottomleft},{1,3,200000,1,2068,0.0075,topright},{1,4,500000,1,2069,0.0175,topleft}
+1			5		limits.tie	1,2
+1			8		game.enabled	1
+1			13		game.operatorenabled	1
+1			15		game.enabled	
+1			16		game.enabled	1
+1			19		game.enabled	1
+1			22		game.enabled	1
+1			35		limits.ante	1,10
+1			35		limits.jackpot	1,10
+1			38		game.enabled	1
+1			40		game.denominations	0.01,0.02,0.05,0.1,0.2,0.25,0.5,1
+1			41		flash.gameurl	https://gfs.s3.amazonaws.com/casino199h_256/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a5+fonts.swf%3a9+fonts_menu.swf%3a5+menu.swf%3a9+../games/goldtrophy_lang.swf%3a1+../../../goldtrophy_main.swf%3a79&gameid=41&pid=2&cashier=2{flash.urloptions}
+1			42		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a5+fonts.swf%3a9+fonts_menu.swf%3a5+menu.swf%3a9+../games/bountyhunter_lang.swf%3a1+../../../bountyhunter_main.swf%3a79&gameid=42&pid=2&cashier=2{flash.urloptions}
+1			43		game.operatorenabled	1
+1			44		game.enabled	1
+1			47		game.enabled	1
+1			49		game.enabled	1
+1			52		game.operatorenabled	1
+1			56		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=../voiceover/voiceover.swf%3a40 logo.swf%3a10+fonts.swf%3a20+fonts_custom.swf%3a10+custom.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a20+../../../skins/tables/green_gold_skin.swf%3a9+../../../3cardpoker_main.swf%3a23&gameid=56&pid=2&cashier=2{flash.urloptions}
+1			60		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=60&pid=2&cashier=2{flash.urloptions}
+1			65		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=65&pid=2&cashier=2{flash.urloptions}
+1			66		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=66&pid=2&cashier=2{flash.urloptions}
+1			69		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=69&pid=2&cashier=2{flash.urloptions}
+1			70		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=70&pid=2&cashier=2{flash.urloptions}
+1			75		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=75&pid=2&cashier=2{flash.urloptions}
+1			78		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=78&pid=2&cashier=2{flash.urloptions}
+1			93		flash.gameurl	https://gfs.s3.amazonaws.com/casino199h_256/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a10+fonts.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a18+../games/scratchahoy_lang.swf%3a2+../../../sc_scratchahoy_main.swf%3a60&gameid=93&pid=2&cashier=2{flash.urloptions}
+1			94		flash.gameurl	https://gfs.s3.amazonaws.com/casino199h_256/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a10+fonts.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a18+../games/holeinone_lang.swf%3a2+../../../sc_holeinone_main.swf%3a60&gameid=94&pid=2&cashier=2{flash.urloptions}
+1			99		game.denominations	0.25,0.5,1.0
+1			110		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=110&pid=2&cashier=2{flash.urloptions}
+1			115		flash.gameurl	https://gfs.s3.amazonaws.com/casino199h_266/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jackpotpoker.swf%3a10+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=115&pid=<%PRODUCT_ID%>
+1			116		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=116&pid=2&cashier=2{flash.urloptions}
+1			119		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=119&pid=2&cashier=2{flash.urloptions}
+1			120		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=120&pid=2&cashier=2{flash.urloptions}
+1			122		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=122&pid=2&cashier=2{flash.urloptions}
+1			125		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=125&pid=2&cashier=2{flash.urloptions}
+1			128		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=128&pid=2&cashier=2{flash.urloptions}
+1			131		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=131&pid=2&cashier=2{flash.urloptions}
+1			137		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=137&pid=2&cashier=2{flash.urloptions}
+1			140		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=140&pid=2&cashier=2{flash.urloptions}
+1			141		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=141&pid=2&cashier=2{flash.urloptions}
+1			143		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=143&pid=2&cashier=2{flash.urloptions}
+1			146		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=146&pid=2&cashier=2{flash.urloptions}
+1			149		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=149&pid=2&cashier=2{flash.urloptions}
+1			152		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=152&pid=2&cashier=2{flash.urloptions}
+1			158		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=158&pid=2&cashier=2{flash.urloptions}
+1			161		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=161&pid=2&cashier=2{flash.urloptions}
+1			162		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=162&pid=2&cashier=2{flash.urloptions}
+1			164		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=164&pid=2&cashier=2{flash.urloptions}
+1			167		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=167&pid=2&cashier=2{flash.urloptions}
+1			170		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=170&pid=2&cashier=2{flash.urloptions}
+1			173		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=173&pid=2&cashier=2{flash.urloptions}
+1			179		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=179&pid=2&cashier=2{flash.urloptions}
+1			182		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=182&pid=2&cashier=2{flash.urloptions}
+1			183		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=183&pid=2&cashier=2{flash.urloptions}
+1			185		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=185&pid=2&cashier=2{flash.urloptions}
+1			188		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=188&pid=2&cashier=2{flash.urloptions}
+1			191		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=191&pid=2&cashier=2{flash.urloptions}
+1			195		flash.gameurl	https://gfs.s3.amazonaws.com/casino199h_256/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a5+fonts.swf%3a9+fonts_menu.swf%3a5+menu.swf%3a9+../games/tropicalholiday_lang.swf%3a1+../../../tropicalholiday_main.swf%3a79&gameid=195&pid=2&cashier=0{flash.urloptions}
+1			195		game.denominations	0.01,0.02,0.05,0.1,0.2
+1			199		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine10/5xmagic/game.xml,style/generic/videoslot/menu.xml,style/generic/videoslot/popup_nospace.xml,games/videoslots/common/mysteryjackpot.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=199&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+1			199		game.denominations	0.5,1,0.05,0.2
+1		a brand new one	199		game.denominations	0.5,1,0.25
+1			235		game.operatorenabled	1
+1			238		game.operatorenabled	1
+1			242		game.jackpot	{1,2050,0.004},{2,2051,0.005},{3,2052,0.0085},{4,2053,0.0125}
+1			242		game.mysteryjackpot	{1,1,10,1,2050,0.004,bottomright},{1,2,20,1,2051,0.005,bottomleft},{1,3,30,1,2052,0.0085,topleft},{1,4,40,1,2053,0.0125,topright}
+1			242		game.operatorenabled	1
+1			243		game.denominations	0.01,0.02,0.1,0.2,0.25,0.05
+1			245		game.operatorenabled	1
+1			247		game.operatorenabled	1
+1			249		game.operatorenabled	1
+1			252		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine11/gumball/game.xml,games/videoslots/machine11/gumball/menu.xml,style/generic/videoslot/popup_nospace.xml,games/videoslots/common/mysteryjackpot.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=252&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+1			252		game.jackpot	{1,2042,0.004},{2,2043,0.005},{3,2044,0.0085},{4,2045,0.0125}
+1			252		game.mysteryjackpot	{1,1,10,0.1,2042,0.004,bottomright},{1,2,50000,0.1,2043,0.005,bottomleft},{1,3,200000,0.1,2044,0.0085,topright},{1,4,500000,0.1,2045,0.0125,topleft}
+1			262		game.operatorenabled	1
+1			272		game.operatorenabled	1
+1			281		game.operatorenabled	1
+1			285		game.denominations	0.01,0.05,0.1,0.5,1,2
+1			285		game.operatorenabled	1
+1			286		game.operatorenabled	1
+1			290		game.operatorenabled	1
+1			291		casino.jurisdiction	AAMS
+1			293		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine16/eastereggs/game.xml,games/videoslots/machine16/eastereggs/menu.xml,style/generic/videoslot/popup.xml,games/videoslots/common/mysteryjackpot.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=293&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+1		testbrand	293		game.jackpot	{1,2050,0.004},{2,2051,0.005},{3,2052,0.0085},{4,2053,0.0125}
+1		testbrand	293		game.mysteryjackpot	{1,1,10,1,2050,0.004,bottomright},{1,2,20,1,2051,0.005,bottomleft},{1,3,30,1,2052,0.0085,topright},{1,4,40,1,2053,0.0125,topleft}
+1			294		game.operatorenabled	1
+1			299		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine10/kaffebarbarbaren/game.xml,games/videoslots/machine10/kaffebarbarbaren/menu.xml,style/generic/videoslot/popup.xml,games/videoslots/common/mysteryjackpot.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=299&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+1			299		game.jackpot	{1,2050,0.004},{2,2051,0.005},{3,2052,0.0085},{4,2053,0.0125}
+1			299		game.mysteryjackpot	{1,1,10,0.1,2050,0.004,bottomright},{1,2,20,0.1,2051,0.005,bottomleft},{1,3,30,0.1,2052,0.0085,topright},{1,4,40,0.1,2053,0.0125,topleft}
+1		bet365test	308		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine16/turkishvillagekid/game.xml,games/videoslots/machine16/turkishvillagekid/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/bet365/bet365.swf&gameid=308&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+1			315		game.jackpot	{3,84,0.012},{4,85,0.024}
+1			100242		game.jackpot	{1,2050,0.004},{2,2051,0.005},{3,2052,0.0085},{4,2053,0.0125}
+1			100242		game.mysteryjackpot	{1,1,10,1,2050,0.004,bottomright},{1,2,20,1,2051,0.005,bottomleft},{1,3,30,1,2052,0.0085,topright},{1,4,40,1,2053,0.0125,topleft}
+1			100242		game.operatorenabled	1
+1			100262		game.operatorenabled	1
+1			100290		game.operatorenabled	1
+1			100294		game.jackpot	{1,2038,0.01},{2,2039,0.02},{3,2040,0.03},{4,2041,0.04}
+1			100294		game.mysteryjackpot	{1,1,10,1,2038,0.01,topright},{1,2,20,2,2039,0.02,topright},{1,3,30,3,2040,0.03,topleft},{1,4,40,4,2041,0.04,topleft}
+1			100299		game.jackpot	{1,2050,0.004},{2,2051,0.0085},{3,2052,0.0085},{4,2053,0.0125}
+1			100299		game.mysteryjackpot	{0,1,10000,1,2050,0.004,bottomright},{0,2,50000,1,2051,0.005,bottomleft},{0,3,200000,1,2052,0.0085,topright},{0,4,500000,1,2053,0.0125,topleft}
+1			100305		game.realitycheck	1
+1			100310		game.autospins	10,20,30,40,50
+1			100315		game.jackpot	{3,84,0.012},{4,85,0.024}
+1			100043	ARS	game.denominations	
+1			6	EUR	mobile.fullscreenmode	1
+1			1	IDR	game.denominations	10000,500,2000,100,50
+1			40	SEK	game.denominations	0.01,0.02,0.05,0.1,0.2,0.25,1
+1			200	SEK	game.denominations	0.2,0.25,0.5,1
+1	12345	testaffiliate	100052		limits.bet	5,99
+1	12345	testaffiliate	52	SEK	limits.bet	2,11
+1	asdf	testbrand	100293		game.mysteryjackpot	{1,1,1,1,2050,0.001,bottomright},{1,2,1,1,2051,0.001,bottomleft},{1,3,1,1,2052,0.001,topleft},{1,4,1,1,2053,0.001,topright}
+1	battle				game.nevergamble	1
+1	coins		251		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine16/leprechaungoesegypt/game.xml,games/videoslots/machine16/leprechaungoesegypt/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=251&pid=<%PRODUCT_ID%>&language=<%LANG%>&creditdisplay=0{flash.urloptions}
+1	coins		100288		mobile.gameurl	pid={productgroup}&gameid={gameid}&sound={game.soundonbydefault}&creditdisplay=0
+1	credit		251		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine16/leprechaungoesegypt/game.xml,games/videoslots/machine16/leprechaungoesegypt/menu.xml,style/generic/videoslot/popup_nospace.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=251&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+1	credit		100288		mobile.gameurl	pid={productgroup}&gameid={gameid}&sound={game.soundonbydefault}&autospins=11,22,33,44,55
+1	test				mobile.resourceroot	fluff
+1	test5		3		game.allowhelpoverride	0
+1	test5		1	SEK	game.brand	4
+1	testcontext		100277		game.limits	1,1,1,1,1
+1	tstcfg				game.helpurl	http://www.playngonetwork.com/gfs/GameHelp.aspx?product={PRODUCT}&game={GAMEID}&language={LANGUAGE}
+1	tstcfg		100004		game.limits	25,50,100
+1	tstcfg		100105		game.limits	25,50,100
+1	tstcfg		100211		game.limits	100,500,1000,2500,10000
+1	tstcfg		100268		game.limits	100,500,1000,2500,10000
+2					game.allowhelpoverride	1
+2					game.allowhistoryoverride	1
+2					game.showingamefreegamemessage	1
+2					gmt.timezone	Azores Standard Time
+2					help.showlastmonthrtp	1
+2					mobile.gamehistoryurl	/CasinoHistory
+2			1		game.operatorenabled	1
+2			4		game.enabled	1
+2			5		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/slots/machine2/luckydiamonds/game.xml,style/generic/slot/menu.xml,style/generic/slot/popup.xml,games/videoslots/common/mysteryjackpot.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=5&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+2			5		game.enabled	0
+2			5		game.jackpot	{1,2062,0.003},{2,2063,0.0045},{3,2064,0.0075},{4,2065,0.0175}
+2			5		game.mysteryjackpot	{1,1,25000,1,2062,0.003,bottomright},{1,2,75000,1,2063,0.0045,bottomleft},{1,3,200000,1,2064,0.0075,topright},{1,4,500000,1,2065,0.0175,topleft}
+2			5		game.operatorenabled	1
+2			8		game.enabled	1
+2			8		game.operatorenabled	1
+2			10		game.enabled	1
+2			11		game.operatorenabled	1
+2			16		game.enabled	1
+2			19		game.enabled	1
+2			22		game.enabled	1
+2			31		game.operatorenabled	1
+2			38		game.enabled	1
+2			40		game.jackpot	{3,42,0.004},{2,41,0.003},{1,40,0.007}
+2			40		game.mysteryjackpot	{1,1,1,0,40,0.008,bottomleft},{1,2,1,0,41,0.003,topright},{1,3,1,0,42,0.004,topleft}
+2			40		game.operatorenabled	1
+2			41		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a5+fonts.swf%3a9+fonts_menu.swf%3a5+menu.swf%3a9+../games/goldtrophy_lang.swf%3a1+../../../goldtrophy_main.swf%3a79&gameid=41&pid=12&cashier=2{flash.urloptions}
+2			42		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a5+fonts.swf%3a9+fonts_menu.swf%3a5+menu.swf%3a9+../games/bountyhunter_lang.swf%3a1+../../../bountyhunter_main.swf%3a79&gameid=42&pid=12&cashier=2{flash.urloptions}
+2			44		game.enabled	1
+2			47		game.enabled	1
+2			49		game.enabled	1
+2			56		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=../voiceover/voiceover.swf%3a40 logo.swf%3a10+fonts.swf%3a20+fonts_custom.swf%3a10+custom.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a20+../../../skins/tables/green_gold_skin.swf%3a9+../../../3cardpoker_main.swf%3a23&gameid=56&pid=12&cashier=2{flash.urloptions}
+2			60		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=60&pid=12&cashier=2{flash.urloptions}
+2			65		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=65&pid=12&cashier=2{flash.urloptions}
+2			66		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=66&pid=12&cashier=2{flash.urloptions}
+2			69		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=69&pid=12&cashier=2{flash.urloptions}
+2			70		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=70&pid=12&cashier=2{flash.urloptions}
+2			75		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=75&pid=12&cashier=2{flash.urloptions}
+2			78		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=78&pid=12&cashier=2{flash.urloptions}
+2			80		game.operatorenabled	1
+2			93		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a10+fonts.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a18+../games/scratchahoy_lang.swf%3a2+../../../sc_scratchahoy_main.swf%3a60&gameid=93&pid=12&cashier=2{flash.urloptions}
+2			94		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a10+fonts.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a18+../games/holeinone_lang.swf%3a2+../../../sc_holeinone_main.swf%3a60&gameid=94&pid=12&cashier=2{flash.urloptions}
+2			110		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=110&pid=12&cashier=2{flash.urloptions}
+2			116		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=116&pid=12&cashier=2{flash.urloptions}
+2			119		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=119&pid=12&cashier=2{flash.urloptions}
+2			120		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=120&pid=12&cashier=2{flash.urloptions}
+2			122		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=122&pid=12&cashier=2{flash.urloptions}
+2			125		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=125&pid=12&cashier=2{flash.urloptions}
+2			128		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=128&pid=12&cashier=2{flash.urloptions}
+2			131		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=131&pid=12&cashier=2{flash.urloptions}
+2			137		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=137&pid=12&cashier=2{flash.urloptions}
+2			140		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=140&pid=12&cashier=2{flash.urloptions}
+2			141		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=141&pid=12&cashier=2{flash.urloptions}
+2			143		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=143&pid=12&cashier=2{flash.urloptions}
+2			146		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=146&pid=12&cashier=2{flash.urloptions}
+2			149		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=149&pid=12&cashier=2{flash.urloptions}
+2			152		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=152&pid=12&cashier=2{flash.urloptions}
+2			158		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=158&pid=12&cashier=2{flash.urloptions}
+2			161		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=161&pid=12&cashier=2{flash.urloptions}
+2			162		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=162&pid=12&cashier=2{flash.urloptions}
+2			164		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=164&pid=12&cashier=2{flash.urloptions}
+2			167		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=167&pid=12&cashier=2{flash.urloptions}
+2			170		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=170&pid=12&cashier=2{flash.urloptions}
+2			173		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=173&pid=12&cashier=2{flash.urloptions}
+2			173		game.operatorenabled	1
+2			179		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=179&pid=12&cashier=2{flash.urloptions}
+2			182		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=182&pid=12&cashier=2{flash.urloptions}
+2			183		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=183&pid=12&cashier=2{flash.urloptions}
+2			185		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=185&pid=12&cashier=2{flash.urloptions}
+2			188		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=188&pid=12&cashier=2{flash.urloptions}
+2			191		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+menu.swf%3a20+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+../../../skins/videopoker/videopoker_background_blue.swf%3a5+../../../videopoker_main.swf%3a47&gameid=191&pid=12&cashier=2{flash.urloptions}
+2			195		flash.gameurl	https://gfs.s3.amazonaws.com/casino199c/lang/{lang}/generic/casino_loader12_8.swf?args=logo.swf%3a5+fonts.swf%3a9+fonts_menu.swf%3a5+menu.swf%3a9+../games/tropicalholiday_lang.swf%3a1+../../../tropicalholiday_main.swf%3a79&gameid=195&pid=12&cashier=2{flash.urloptions}
+2			250		game.enabled	0
+2			252		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine11/gumball/game.xml,games/videoslots/machine11/gumball/menu.xml,style/generic/videoslot/popup_nospace.xml,games/videoslots/common/mysteryjackpot.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=252&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+2			252		game.jackpot	{1,2054,0.0001},{2,2055,0.0002},{3,2056,0.0003},{4,2057,0.0004}
+2			252		game.mysteryjackpot	{1,1,100,5,2054,0.0001,bottomright},{1,2,200,5,2055,0.0002,bottomleft},{1,3,300,5,2056,0.0003,topright},{1,4,400,5,2057,0.0004,topleft}
+2			286		game.operatorenabled	1
+2			290		game.operatorenabled	1
+2			291		game.operatorenabled	1
+2			293		game.operatorenabled	0
+2			100238		game.operatorenabled	1
+2			100250		game.enabled	1
+2			100250		game.operatorenabled	1
+2			100252		game.jackpot	{1,2054,0.0001},{2,2055,0.0002},{3,2056,0.0003},{4,2057,0.0004}
+2			100252		game.mysteryjackpot	{1,1,100,5,2054,0.0001,bottomright},{1,2,200,100,2055,0.0002,bottomleft},{1,3,300,200,2056,0.0003,topright},{1,4,400,300,2057,0.0004,topleft}
+2			100293		game.jackpot	{1,2050,0.004},{2,2051,0.005},{3,2052,0.0085},{4,2053,0.0125}
+2			100293		game.mysteryjackpot	{1,1,10,1,2050,0.004,topleft},{1,2,20,1,2051,0.005,bottomleft},{1,3,50,1,2054,0.005,topleft},{1,4,1,0.01,5,0.0001,bottomleft}
+2		111	40	BAM	game.denominations	0.01,0.02,0.05,0.1,0.2,0.25,0.5,1
+2	adsfasdf				game.autospins	10,20,3000
+2	adsfasdf				game.defaultautospins	10
+2	adsfasdf		100250		game.allowhelpoverride	1
+2	adsfasdf		100250		game.allowhistoryoverride	1
+2	adsfasdf		100250		game.defaultdenomination	100
+2	adsfasdf		100250		game.defaultlimit	100
+2	adsfasdf		100250		game.defaultlines	5
+2	adsfasdf		100250		game.helpurl	www.asdf.com
+2	adsfasdf		100250		game.limits	100,1000,2000,5000,10000
+2	adsfasdf		100250		game.soundonbydefault	1
+2	adsfasdf		100250		help.hidertp	0
+2	adsfasdf		100250		help.showlastmonthrtp	0
+2	adsfasdf		100250		mobile.analyticstag	www.asdf.com
+2	adsfasdf		100250		mobile.cashierurl	www.asdf.com
+2	adsfasdf		100250		mobile.gamehistoryurl	www.asdf.com
+2	adsfasdf		100250		mobile.gameurl	www.asdf.com
+2	adsfasdf		100250		mobile.lobbyurl	www.asdf.com
+2	adsfasdf		100250		mobile.playforrealurl	www.asdf.com
+2	adsfasdf		1	asd	game.autospins	10
+2	donotstart				game.defaultautospins	20
+2	donotstart				mobile.cashierurl	www.asdf.com
+2	jdtest		4	SEK	game.allowhelpoverride	1
+2	MBTEST				casino.jurisdiction	22
+2	MobileGames				game.helpurl	/casino/gamehelp?pid={PRODUCT}&gameid={GAMEID}&lang={LANGUAGE}
+2	MobileGames				game.soundonbydefault	0
+2	MobileGames				mobile.cashierurl	http://www.swedbank.seadfafda
+2	MobileGames				mobile.lobbyurl	http://10.0.4.1:49991
+2	MobileGames				mobile.playforrealurl	http://www.playngo.com
+2	MobileGames		100004		game.defaultdenomination	25
+2	MobileGames		100004		game.defaultlimit	1
+2	MobileGames		100004		game.limits	10,25,100
+2	MobileGames		100005		game.defaultdenomination	25
+2	MobileGames		100005		game.defaultlimit	1
+2	MobileGames		100005		game.limits	25,25,25
+2	MobileGames		100011		game.defaultdenomination	500
+2	MobileGames		100011		game.defaultlimit	2
+2	MobileGames		100016		game.defaultdenomination	25
+2	MobileGames		100016		game.defaultlimit	1
+2	MobileGames		100016		game.limits	25,25,25,25,25
+2	MobileGames		100017		game.defaultdenomination	25
+2	MobileGames		100017		game.defaultlimit	1
+2	MobileGames		100017		game.limits	25,25,25,25,25
+2	MobileGames		100018		game.defaultdenomination	25
+2	MobileGames		100018		game.defaultlimit	1
+2	MobileGames		100018		game.limits	25,25,25,25,25
+2	MobileGames		100031		game.defaultdenomination	100
+2	MobileGames		100031		game.defaultlimit	1
+2	MobileGames		100031		game.limits	100,500,1000,2500,10000
+2	MobileGames		100034		game.defaultdenomination	1000
+2	MobileGames		100034		game.defaultlimit	3
+2	MobileGames		100035		game.defaultdenomination	100
+2	MobileGames		100035		game.defaultlimit	1
+2	MobileGames		100035		game.limits	100,500,1000,2500,10000
+2	MobileGames		100040		game.defaultdenomination	25
+2	MobileGames		100040		game.defaultlimit	1
+2	MobileGames		100040		game.limits	25,25,25,25,25
+2	MobileGames		100043		game.defaultdenomination	1
+2	MobileGames		100043		game.defaultlimit	1
+2	MobileGames		100043		game.limits	1,1,1,1,1
+2	MobileGames		100047		game.defaultdenomination	25
+2	MobileGames		100047		game.defaultlimit	1
+2	MobileGames		100047		game.limits	25,25,25,25,25
+2	MobileGames		100052		game.defaultdenomination	100
+2	MobileGames		100052		game.defaultlimit	1
+2	MobileGames		100052		game.limits	100,500,1000,2500,10000
+2	MobileGames		100053		game.defaultdenomination	100
+2	MobileGames		100053		game.defaultlimit	1
+2	MobileGames		100053		game.limits	100,500,1000,2500,10000
+2	MobileGames		100054		game.defaultdenomination	100
+2	MobileGames		100054		game.defaultlimit	1
+2	MobileGames		100054		game.limits	100,500,1000,2500,10000
+2	MobileGames		100055		game.defaultdenomination	100
+2	MobileGames		100055		game.defaultlimit	1
+2	MobileGames		100055		game.limits	100,500,1000,2500,10000
+2	MobileGames		100056		game.defaultdenomination	500
+2	MobileGames		100056		game.defaultlimit	2
+2	MobileGames		100056		game.limits	100,500,1000,2500,10000
+2	MobileGames		100057		game.defaultdenomination	1
+2	MobileGames		100057		game.defaultlimit	1
+2	MobileGames		100057		game.limits	1,5,10,25,50,100,250,500,1000,2500,5000,10000,200000,50000,1000000
+2	MobileGames		100058		game.defaultdenomination	100
+2	MobileGames		100058		game.defaultlimit	1
+2	MobileGames		100058		game.limits	100,500,1000,2500,10000
+2	MobileGames		100093		game.defaultdenomination	49
+2	MobileGames		100093		game.defaultlimit	1
+2	MobileGames		100093		game.limits	50
+2	MobileGames		100094		game.defaultdenomination	50
+2	MobileGames		100094		game.defaultlimit	1
+2	MobileGames		100094		game.limits	50
+2	MobileGames		100099		game.defaultdenomination	25
+2	MobileGames		100099		game.defaultlimit	1
+2	MobileGames		100099		game.limits	25,25,25
+2	MobileGames		100106		game.defaultdenomination	25
+2	MobileGames		100106		game.defaultlimit	1
+2	MobileGames		100106		game.limits	25,25,25
+2	MobileGames		100107		game.defaultdenomination	25
+2	MobileGames		100107		game.defaultlimit	1
+2	MobileGames		100107		game.limits	25,25,25
+2	MobileGames		100108		game.defaultdenomination	25
+2	MobileGames		100108		game.defaultlimit	1
+2	MobileGames		100108		game.limits	25,25,25
+2	MobileGames		100196		game.defaultdenomination	1
+2	MobileGames		100196		game.defaultlimit	1
+2	MobileGames		100196		game.limits	1,1,1,1,1
+2	MobileGames		100197		game.defaultdenomination	1
+2	MobileGames		100197		game.defaultlimit	1
+2	MobileGames		100197		game.limits	1,1,1,1,1
+2	MobileGames		100198		game.defaultdenomination	1
+2	MobileGames		100198		game.defaultlimit	1
+2	MobileGames		100198		game.limits	1,1,1,1,1
+2	MobileGames		100199		game.defaultdenomination	10
+2	MobileGames		100199		game.defaultlimit	1
+2	MobileGames		100199		game.limits	10
+2	MobileGames		100200		game.defaultdenomination	10
+2	MobileGames		100200		game.defaultlimit	1
+2	MobileGames		100200		game.limits	10
+2	MobileGames		100211		game.defaultdenomination	100
+2	MobileGames		100211		game.defaultlimit	1
+2	MobileGames		100211		game.limits	100,500,1000,2500,10000
+2	MobileGames		100225		game.defaultdenomination	1
+2	MobileGames		100225		game.defaultlimit	1
+2	MobileGames		100225		game.limits	1,1,1,1,1
+2	MobileGames		100235		game.defaultdenomination	50
+2	MobileGames		100235		game.defaultlimit	1
+2	MobileGames		100235		game.limits	50
+2	MobileGames		100237		game.defaultdenomination	1
+2	MobileGames		100237		game.defaultlimit	1
+2	MobileGames		100237		game.limits	1,1,1,1,1
+2	MobileGames		100238		game.defaultdenomination	1
+2	MobileGames		100238		game.defaultlimit	1
+2	MobileGames		100238		game.limits	1,1,1,1,1
+2	MobileGames		100239		game.defaultdenomination	50
+2	MobileGames		100239		game.defaultlimit	1
+2	MobileGames		100239		game.limits	50
+2	MobileGames		100241		game.defaultdenomination	1
+2	MobileGames		100241		game.defaultlimit	1
+2	MobileGames		100241		game.limits	1,1,1,1,1
+2	MobileGames		100242		game.defaultdenomination	1
+2	MobileGames		100242		game.defaultlimit	1
+2	MobileGames		100242		game.limits	1,1,1,1,1
+2	MobileGames		100243		game.defaultdenomination	1
+2	MobileGames		100243		game.defaultlimit	1
+2	MobileGames		100243		game.limits	1,1,1,1,1
+2	MobileGames		100245		game.defaultdenomination	1
+2	MobileGames		100245		game.defaultlimit	1
+2	MobileGames		100245		game.limits	1,1,1,1,1
+2	MobileGames		100246		game.defaultdenomination	1
+2	MobileGames		100246		game.defaultlimit	1
+2	MobileGames		100246		game.limits	1,1,1,1,1
+2	MobileGames		100247		game.defaultdenomination	1
+2	MobileGames		100247		game.defaultlimit	1
+2	MobileGames		100247		game.limits	1,1,1,1,1
+2	MobileGames		100250		game.defaultdenomination	1
+2	MobileGames		100250		game.defaultlimit	1
+2	MobileGames		100250		game.defaultlines	10
+2	MobileGames		100250		game.limits	1,1,1,1,1
+2	MobileGames		100251		game.defaultdenomination	1
+2	MobileGames		100251		game.defaultlimit	1
+2	MobileGames		100251		game.limits	1,1,1,1,1
+2	MobileGames		100252		game.defaultdenomination	1
+2	MobileGames		100252		game.defaultlimit	1
+2	MobileGames		100252		game.limits	1,1,1,1,1
+2	MobileGames		100253		game.defaultdenomination	10
+2	MobileGames		100253		game.defaultlimit	3
+2	MobileGames		100253		game.limits	5,5,10,25,50
+2	MobileGames		100254		game.defaultdenomination	1
+2	MobileGames		100254		game.defaultlimit	1
+2	MobileGames		100254		game.limits	1,1,1,1,1
+2	MobileGames		100255		game.defaultdenomination	1
+2	MobileGames		100255		game.defaultlimit	1
+2	MobileGames		100255		game.limits	1,1,1,1,1
+2	MobileGames		100256		game.defaultdenomination	1
+2	MobileGames		100256		game.defaultlimit	1
+2	MobileGames		100256		game.limits	1,1,1,1,1
+2	MobileGames		100257		game.defaultdenomination	1
+2	MobileGames		100257		game.defaultlimit	1
+2	MobileGames		100257		game.limits	1,1,1,1,1
+2	MobileGames		100258		game.defaultdenomination	1
+2	MobileGames		100258		game.defaultlimit	1
+2	MobileGames		100258		game.limits	1,1,1,1,1
+2	MobileGames		100259		game.defaultdenomination	10
+2	MobileGames		100259		game.defaultlimit	5
+2	MobileGames		100259		game.limits	10,10,10,10,10
+2	MobileGames		100260		game.defaultdenomination	50
+2	MobileGames		100260		game.defaultlimit	5
+2	MobileGames		100260		game.limits	25,25,25,25,50
+2	MobileGames		100262		game.defaultdenomination	1
+2	MobileGames		100262		game.defaultlimit	1
+2	MobileGames		100262		game.limits	1,1,1,1,1
+2	MobileGames		100263		game.defaultdenomination	1
+2	MobileGames		100263		game.defaultlimit	1
+2	MobileGames		100263		game.limits	1,1,1,1,1
+2	MobileGames		100265		game.defaultdenomination	1
+2	MobileGames		100265		game.defaultlimit	1
+2	MobileGames		100265		game.limits	1,1,1,1,1
+2	MobileGames		100268		game.defaultdenomination	200000
+2	MobileGames		100268		game.defaultlimit	4
+2	MobileGames		100268		game.limits	1,100,10000,200000,1000000
+2	MobileGames		100269		game.defaultdenomination	25
+2	MobileGames		100269		game.defaultlimit	1
+2	MobileGames		100269		game.limits	25,25,25,25,25
+2	MobileGames		100270		game.defaultdenomination	25
+2	MobileGames		100270		game.defaultlimit	1
+2	MobileGames		100270		game.limits	25,25,25,25,25
+2	MobileGames		100271		game.defaultdenomination	25
+2	MobileGames		100271		game.defaultlimit	1
+2	MobileGames		100271		game.limits	25,25,25,25,25
+2	MobileGames		100276		game.defaultdenomination	25
+2	MobileGames		100276		game.defaultlimit	1
+2	MobileGames		100276		game.limits	25,25,25,25,25
+2	MobileGames		100277		game.defaultdenomination	1
+2	MobileGames		100277		game.defaultlimit	1
+2	MobileGames		100277		game.limits	1,1,1,1,1
+2	MobileGames		100278		game.allowhelpoverride	0
+2	MobileGames		100278		game.defaultdenomination	1
+2	MobileGames		100278		game.defaultlimit	1
+2	MobileGames		100278		game.limits	1,1,1,1,1
+2	NewGames				game.helpurl	/casino/gamehelp?pid={PRODUCT}&gameid={GAMEID}&lang={LANGUAGE}
+2	NewGames				game.soundonbydefault	0
+2	NewGames		100004		game.defaultdenomination	25
+2	NewGames		100004		game.defaultlimit	1
+2	NewGames		100004		game.limits	25,25,25
+2	NewGames		100005		game.defaultdenomination	25
+2	NewGames		100005		game.defaultlimit	1
+2	NewGames		100005		game.limits	25,25,25
+2	NewGames		100011		game.defaultdenomination	100
+2	NewGames		100011		game.defaultlimit	1
+2	NewGames		100016		game.defaultdenomination	25
+2	NewGames		100016		game.defaultlimit	1
+2	NewGames		100016		game.limits	25,25,25,25,25
+2	NewGames		100017		game.defaultdenomination	25
+2	NewGames		100017		game.defaultlimit	1
+2	NewGames		100017		game.limits	25,25,25,25,25
+2	NewGames		100018		game.defaultdenomination	25
+2	NewGames		100018		game.defaultlimit	1
+2	NewGames		100018		game.limits	25,25,25,25,25
+2	NewGames		100031		game.defaultdenomination	100
+2	NewGames		100031		game.defaultlimit	1
+2	NewGames		100031		game.limits	100,500,1000,2500,10000
+2	NewGames		100035		game.defaultdenomination	100
+2	NewGames		100035		game.defaultlimit	1
+2	NewGames		100035		game.limits	100,500,1000,2500,10000
+2	NewGames		100040		game.defaultdenomination	25
+2	NewGames		100040		game.defaultlimit	1
+2	NewGames		100040		game.limits	25,25,25,25,25
+2	NewGames		100047		game.defaultdenomination	25
+2	NewGames		100047		game.defaultlimit	1
+2	NewGames		100047		game.limits	25,25,25,25,25
+2	NewGames		100052		game.defaultdenomination	100
+2	NewGames		100052		game.defaultlimit	1
+2	NewGames		100052		game.limits	100,500,1000,2500,10000,50000,200000,1000000
+2	NewGames		100056		game.defaultdenomination	100
+2	NewGames		100056		game.defaultlimit	1
+2	NewGames		100056		game.limits	100,500,1000,2500,10000
+2	NewGames		100057		game.defaultdenomination	100
+2	NewGames		100057		game.defaultlimit	1
+2	NewGames		100057		game.limits	100,500,1000,2500,10000
+2	NewGames		100093		game.defaultdenomination	50
+2	NewGames		100093		game.defaultlimit	1
+2	NewGames		100093		game.limits	50
+2	NewGames		100094		game.defaultdenomination	50
+2	NewGames		100094		game.defaultlimit	1
+2	NewGames		100094		game.limits	50
+2	NewGames		100099		game.defaultdenomination	25
+2	NewGames		100099		game.defaultlimit	1
+2	NewGames		100099		game.limits	25,25,25
+2	NewGames		100105		game.defaultdenomination	25
+2	NewGames		100105		game.defaultlimit	1
+2	NewGames		100105		game.limits	25,25,25
+2	NewGames		100106		game.defaultdenomination	25
+2	NewGames		100106		game.defaultlimit	1
+2	NewGames		100106		game.limits	25,25,25
+2	NewGames		100107		game.defaultdenomination	25
+2	NewGames		100107		game.defaultlimit	1
+2	NewGames		100107		game.limits	25,25,25
+2	NewGames		100108		game.defaultdenomination	25
+2	NewGames		100108		game.defaultlimit	1
+2	NewGames		100108		game.limits	25,25,25
+2	NewGames		100196		game.defaultdenomination	1
+2	NewGames		100196		game.defaultlimit	1
+2	NewGames		100196		game.limits	1,1,1,1,1
+2	NewGames		100199		game.defaultdenomination	10
+2	NewGames		100199		game.defaultlimit	1
+2	NewGames		100199		game.limits	10
+2	NewGames		100200		game.defaultdenomination	10
+2	NewGames		100200		game.defaultlimit	1
+2	NewGames		100200		game.limits	10
+2	NewGames		100225		game.defaultdenomination	1
+2	NewGames		100225		game.defaultlimit	1
+2	NewGames		100225		game.limits	1,1,1,1,1
+2	NewGames		100235		game.defaultdenomination	50
+2	NewGames		100235		game.defaultlimit	1
+2	NewGames		100235		game.limits	50
+2	NewGames		100237		game.defaultdenomination	1
+2	NewGames		100237		game.defaultlimit	1
+2	NewGames		100237		game.limits	1,1,1,1,1
+2	NewGames		100238		game.defaultdenomination	1
+2	NewGames		100238		game.defaultlimit	1
+2	NewGames		100238		game.limits	1,1,1,1,1
+2	NewGames		100239		game.defaultdenomination	50
+2	NewGames		100239		game.defaultlimit	1
+2	NewGames		100239		game.limits	50
+2	NewGames		100241		game.defaultdenomination	1
+2	NewGames		100241		game.defaultlimit	1
+2	NewGames		100241		game.limits	1,1,1,1,1
+2	NewGames		100242		game.defaultdenomination	1
+2	NewGames		100242		game.defaultlimit	1
+2	NewGames		100242		game.limits	1,1,1,1,1
+2	NewGames		100243		game.defaultdenomination	1
+2	NewGames		100243		game.defaultlimit	1
+2	NewGames		100243		game.limits	1,1,1,1,1
+2	NewGames		100245		game.defaultdenomination	1
+2	NewGames		100245		game.defaultlimit	1
+2	NewGames		100245		game.limits	1,1,1,1,1
+2	NewGames		100246		game.defaultdenomination	1
+2	NewGames		100246		game.defaultlimit	1
+2	NewGames		100246		game.limits	1,1,1,1,1
+2	NewGames		100250		game.defaultdenomination	1
+2	NewGames		100250		game.defaultlimit	1
+2	NewGames		100250		game.limits	1,1,1,1,1
+2	NewGames		100251		game.defaultdenomination	1
+2	NewGames		100251		game.defaultlimit	1
+2	NewGames		100251		game.limits	1,1,1,1,1
+2	NewGames		100252		game.defaultdenomination	1
+2	NewGames		100252		game.defaultlimit	1
+2	NewGames		100252		game.limits	1,1,1,1,1
+2	test1		1234	SEK	game.allowhelpoverride	1
+2	TestMobile				game.helpurl	http://www.playngonetwork.com/gfs/GameHelp.aspx?product={PRODUCT}&game={GAMEID}&language={LANGUAGE}
+2	TestMobile				game.soundonbydefault	1
+2	TestMobile		100004		game.defaultdenomination	25
+2	TestMobile		100004		game.defaultlimit	1
+2	TestMobile		100004		game.limits	25,25,25
+2	TestMobile		100005		game.defaultdenomination	25
+2	TestMobile		100005		game.defaultlimit	1
+2	TestMobile		100005		game.limits	25,25,25
+2	TestMobile		100011		game.defaultdenomination	100
+2	TestMobile		100011		game.defaultlimit	1
+2	TestMobile		100016		game.defaultdenomination	25
+2	TestMobile		100016		game.defaultlimit	1
+2	TestMobile		100016		game.limits	25,25,25,25,25
+2	TestMobile		100017		game.defaultdenomination	25
+2	TestMobile		100017		game.defaultlimit	1
+2	TestMobile		100017		game.limits	25,25,25,25,25
+2	TestMobile		100018		game.defaultdenomination	25
+2	TestMobile		100018		game.defaultlimit	1
+2	TestMobile		100018		game.limits	25,25,25,25,25
+2	TestMobile		100031		game.defaultdenomination	100
+2	TestMobile		100031		game.defaultlimit	1
+2	TestMobile		100031		game.limits	100,500,1000,2500,10000
+2	TestMobile		100035		game.defaultdenomination	100
+2	TestMobile		100035		game.defaultlimit	1
+2	TestMobile		100035		game.limits	100,500,1000,2500,10000
+2	TestMobile		100040		game.defaultdenomination	25
+2	TestMobile		100040		game.defaultlimit	1
+2	TestMobile		100040		game.limits	25,25,25,25,25
+2	TestMobile		100047		game.defaultdenomination	25
+2	TestMobile		100047		game.defaultlimit	1
+2	TestMobile		100047		game.limits	25,25,25,25,25
+2	TestMobile		100052		game.defaultdenomination	100
+2	TestMobile		100052		game.defaultlimit	1
+2	TestMobile		100052		game.limits	100,500,1000,2500,10000
+2	TestMobile		100056		game.defaultdenomination	100
+2	TestMobile		100056		game.defaultlimit	1
+2	TestMobile		100056		game.limits	100,500,1000,2500,10000
+2	TestMobile		100057		game.defaultdenomination	100
+2	TestMobile		100057		game.defaultlimit	1
+2	TestMobile		100057		game.limits	100,500,1000,2500,10000
+2	TestMobile		100093		game.defaultdenomination	50
+2	TestMobile		100093		game.defaultlimit	1
+2	TestMobile		100093		game.limits	50
+2	TestMobile		100094		game.defaultdenomination	50
+2	TestMobile		100094		game.defaultlimit	1
+2	TestMobile		100094		game.limits	50
+2	TestMobile		100099		game.defaultdenomination	25
+2	TestMobile		100099		game.defaultlimit	1
+2	TestMobile		100099		game.limits	25,25,25
+2	TestMobile		100105		game.defaultdenomination	25
+2	TestMobile		100105		game.defaultlimit	1
+2	TestMobile		100105		game.limits	25,25,25
+2	TestMobile		100106		game.defaultdenomination	25
+2	TestMobile		100106		game.defaultlimit	1
+2	TestMobile		100106		game.limits	25,25,25
+2	TestMobile		100107		game.defaultdenomination	25
+2	TestMobile		100107		game.defaultlimit	1
+2	TestMobile		100107		game.limits	25,25,25
+2	TestMobile		100108		game.defaultdenomination	25
+2	TestMobile		100108		game.defaultlimit	1
+2	TestMobile		100108		game.limits	25,25,25
+2	TestMobile		100196		game.defaultdenomination	1
+2	TestMobile		100196		game.defaultlimit	1
+2	TestMobile		100196		game.limits	1,1,1,1,1
+2	TestMobile		100200		game.defaultdenomination	10
+2	TestMobile		100200		game.defaultlimit	1
+2	TestMobile		100200		game.limits	10
+2	TestMobile		100225		game.defaultdenomination	1
+2	TestMobile		100225		game.defaultlimit	1
+2	TestMobile		100225		game.limits	1,1,1,1,1
+2	TestMobile		100235		game.defaultdenomination	50
+2	TestMobile		100235		game.defaultlimit	1
+2	TestMobile		100235		game.limits	50
+2	TestMobile		100237		game.defaultdenomination	1
+2	TestMobile		100237		game.defaultlimit	1
+2	TestMobile		100237		game.limits	1,1,1,1,1
+2	TestMobile		100238		game.defaultdenomination	1
+2	TestMobile		100238		game.defaultlimit	1
+2	TestMobile		100238		game.limits	1,1,1,1,1
+2	TestMobile		100239		game.defaultdenomination	50
+2	TestMobile		100239		game.defaultlimit	1
+2	TestMobile		100239		game.limits	50
+2	TestMobile		100241		game.defaultdenomination	1
+2	TestMobile		100241		game.defaultlimit	1
+2	TestMobile		100241		game.limits	1,1,1,1,1
+2	TestMobile		100242		game.defaultdenomination	1
+2	TestMobile		100242		game.defaultlimit	1
+2	TestMobile		100242		game.limits	1,1,1,1,1
+2	TestMobile		100243		game.defaultdenomination	1
+2	TestMobile		100243		game.defaultlimit	1
+2	TestMobile		100243		game.limits	1,1,1,1,1
+2	TestMobile		100245		game.defaultdenomination	1
+2	TestMobile		100245		game.defaultlimit	1
+2	TestMobile		100245		game.limits	1,1,1,1,1
+2	TestMobile		100246		game.defaultdenomination	1
+2	TestMobile		100246		game.defaultlimit	1
+2	TestMobile		100246		game.limits	1,1,1,1,1
+2	TestMobile		100250		game.defaultdenomination	1
+2	TestMobile		100250		game.defaultlimit	1
+2	TestMobile		100250		game.limits	1,1,1,1,1
+2	TestMobile		100251		game.defaultdenomination	1
+2	TestMobile		100251		game.defaultlimit	1
+2	TestMobile		100251		game.limits	1,1,1,1
+2	TestMobile		100252		game.defaultdenomination	0
+2	TestMobile		100252		game.defaultlimit	1
+2	TestMobile		100252		game.limits	1,1,1,1,1
+2	TestMobile		100253		game.defaultdenomination	1
+2	TestMobile		100253		game.defaultlimit	1
+2	TestMobile		100253		game.limits	1,1,1,1,1
+2	TestMobile		100254		game.defaultdenomination	1
+2	TestMobile		100254		game.defaultlimit	1
+2	TestMobile		100254		game.limits	1,1,1,1,1
+2	URLTest				game.helpurl	/casino/gamehelp?pid={PRODUCT}&gameid={GAMEID}&lang={LANGUAGE}
+2	URLTest				game.soundonbydefault	0
+2	URLTest		100099		game.defaultdenomination	25
+2	URLTest		100099		game.defaultlimit	1
+2	URLTest		100099		game.limits	25,25,25,25
+2	URLTest		100199		game.defaultdenomination	10
+2	URLTest		100199		game.defaultlimit	1
+2	URLTest		100199		game.limits	10
+3					wallet.databaseconnection	metadata=res://*/DAL.Wallet.WalletModel.csdl|res://*/DAL.Wallet.WalletModel.ssdl|res://*/DAL.Wallet.WalletModel.msl;provider=System.Data.SqlClient;provider connection string="data source=fryer;initial catalog=png_wallet;User id=png_wallet;Password=playngo;MultipleActiveResultSets=True;App=EntityFramework"
+26			8		game.enabled	1
+26			16		game.enabled	1
+26			19		game.enabled	1
+26			22		game.enabled	1
+26			38		game.enabled	1
+26			41		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader12_8.swf?args=logo.swf%3a5+fonts.swf%3a9+fonts_menu.swf%3a5+menu.swf%3a9+../games/goldtrophy_lang.swf%3a1+../../../goldtrophy_main.swf%3a79&gameid=41&pid=252&cashier=2{flash.urloptions}
+26			42		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader12_8.swf?args=logo.swf%3a5+fonts.swf%3a9+fonts_menu.swf%3a5+menu.swf%3a9+../games/bountyhunter_lang.swf%3a1+../../../bountyhunter_main.swf%3a79&gameid=42&pid=252&cashier=2{flash.urloptions}
+26			44		game.enabled	1
+26			47		game.enabled	1
+26			49		game.enabled	1
+26			56		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_custom.swf%3a10+custom.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a20+../../../skins/tables/green_gold_skin.swf%3a9+../../../3cardpoker_main.swf%3a23&gameid=56&pid=252&cashier=2{flash.urloptions}
+26			60		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=60&pid=252&cashier=2{flash.urloptions}
+26			65		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=65&pid=252&cashier=2{flash.urloptions}
+26			66		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=66&pid=252&cashier=2{flash.urloptions}
+26			69		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=69&pid=252&cashier=2{flash.urloptions}
+26			70		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=70&pid=252&cashier=2{flash.urloptions}
+26			75		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=75&pid=252&cashier=2{flash.urloptions}
+26			78		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=78&pid=252&cashier=2{flash.urloptions}
+26			93		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader12_8.swf?args=logo.swf%3a10+fonts.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a18+../games/scratchahoy_lang.swf%3a2+../../../sc_scratchahoy_main.swf%3a60&gameid=93&pid=252&cashier=2{flash.urloptions}
+26			94		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader12_8.swf?args=logo.swf%3a10+fonts.swf%3a18+fonts_menu.swf%3a10+menu.swf%3a18+../games/holeinone_lang.swf%3a2+../../../sc_holeinone_main.swf%3a60&gameid=94&pid=252&cashier=2{flash.urloptions}
+26			110		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=110&pid=252&cashier=2{flash.urloptions}
+26			116		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=116&pid=252&cashier=2{flash.urloptions}
+26			119		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=119&pid=252&cashier=2{flash.urloptions}
+26			120		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=120&pid=252&cashier=2{flash.urloptions}
+26			122		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=122&pid=252&cashier=2{flash.urloptions}
+26			125		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=125&pid=252&cashier=2{flash.urloptions}
+26			128		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=128&pid=252&cashier=2{flash.urloptions}
+26			131		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=131&pid=252&cashier=2{flash.urloptions}
+26			137		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=137&pid=252&cashier=2{flash.urloptions}
+26			140		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=140&pid=252&cashier=2{flash.urloptions}
+26			141		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=141&pid=252&cashier=2{flash.urloptions}
+26			143		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=143&pid=252&cashier=2{flash.urloptions}
+26			146		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=146&pid=252&cashier=2{flash.urloptions}
+26			149		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=149&pid=252&cashier=2{flash.urloptions}
+26			152		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=152&pid=252&cashier=2{flash.urloptions}
+26			158		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=158&pid=252&cashier=2{flash.urloptions}
+26			161		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=161&pid=252&cashier=2{flash.urloptions}
+26			162		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=162&pid=252&cashier=2{flash.urloptions}
+26			164		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=164&pid=252&cashier=2{flash.urloptions}
+26			167		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=167&pid=252&cashier=2{flash.urloptions}
+26			170		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=170&pid=252&cashier=2{flash.urloptions}
+26			173		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_deuceswild.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=173&pid=252&cashier=2{flash.urloptions}
+26			179		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jacksorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=179&pid=252&cashier=2{flash.urloptions}
+26			182		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_kingsorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=182&pid=252&cashier=2{flash.urloptions}
+26			183		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_tensorbetter.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=183&pid=252&cashier=2{flash.urloptions}
+26			185		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_deucesandjoker.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=185&pid=252&cashier=2{flash.urloptions}
+26			188		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_jokerpoker.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=188&pid=252&cashier=2{flash.urloptions}
+26			191		flash.gameurl	https://gfs.s3.amazonaws.com/special/lang/{lang}/wwn/casino_loader24_8.swf?args=logo.swf%3a10+fonts.swf%3a20+fonts_menu.swf%3a10+videopoker_font.swf%3a3+../../../skins/videopoker/videopoker_doublebonus.swf%3a10+menu.swf%3a20+../../../videopoker_main.swf%3a47&gameid=191&pid=252&cashier=2{flash.urloptions}
+26			241		game.enabled	0
+45					game.jackpot	{1,42,}
+45					game.showingamefreegamemessage	1
+45					gmt.timezone	
+45			40		game.denominations	6,5,4,3,2,1
+45			299		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine10/kaffebarbarbaren/game.xml,games/videoslots/machine10/kaffebarbarbaren/menu.xml,style/generic/videoslot/popup.xml,games/videoslots/common/mysteryjackpot.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=299&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+45			299		game.jackpot	{1,2050,0.01},{2,2051,0.01},{3,2052,0.01},{4,2053,0.01}
+45			299		game.mysteryjackpot	{1,1,5,1,2050,0.01,bottomright},{1,2,10,1,2051,0.01,bottomleft},{1,3,15,1,2052,0.01,topright},{1,4,20,1,2053,0.01,topleft}
+45			100052		game.denominations	5,10
+45			100052		game.roundlimit	30
+45	blarg!				game.defaultdenomination	3
+45	blarg!		40		game.defaultdenomination	3
+45	Blargh!				game.rtp	98
+45	Blargh!		299		game.rtp	97
+46					mobile.resourceroot	http://gfsdev.s3.amazonaws.com/mobile21700_63/
+46			57		game.enabled	0
+46			318		game.defaultdenomination	3
+46			318		game.enabled	1
+46			318		game.operatorenabled	1
+46			100093		mobile.resourceroot	http://gfsdev.s3.amazonaws.com/mobile21502_40/
+46			100094		mobile.resourceroot	http://gfsdev.s3.amazonaws.com/mobile21502_40/
+46	Test		318		game.defaultdenomination	5
+47			293		flash.gameurl	{flash.resourceroot}/brand/generic/GameLoader.swf?scriptPath=games/videoslots/machine16/eastereggs/game.xml,games/videoslots/common/mysteryjackpot.xml,games/videoslots/machine16/eastereggs/menu.xml,style/generic/videoslot/popup.xml,games/videoslots/common/mysteryjackpot.xml&baseURL={flash.resourceroot}/&loader=brand/generic/loader.swf&gameid=293&pid=<%PRODUCT_ID%>&language=<%LANG%>{flash.urloptions}
+47		testbrand	293		game.jackpot	{1,2050,0.004},{2,2051,0.005},{3,2052,0.0085},{4,2053,0.0125}
+47		testbrand	293		game.mysteryjackpot	{1,1,10,1,2050,0.004,topleft},{1,2,20,1,2051,0.005,topright},{1,3,30,1,2052,0.0085,bottomleft},{1,4,40,1,2053,0.0125,bottomright}
+47		testbrand	100293		game.jackpot	{1,2050,0.004},{2,2051,0.005},{3,2052,0.0085},{4,2053,0.0125}
+47		testbrand	100293		game.mysteryjackpot	{1,1,10,1,2050,0.004,topleft},{1,2,20,1,2051,0.005,topright},{1,3,30,1,2052,0.0085,bottomleft},{1,4,40,1,2053,0.0125,bottomright}
+47	aaaaaaaaaaa		200		game.defaultdenomination	10
+47	aaaaaaaaaaa		200		game.defaultlimit	5
+47	aaaaaaaaaaa		200		game.defaultlines	5
+47	aaaaaaaaaaa		241		game.defaultdenomination	10
+47	aaaaaaaaaaa		241		game.defaultlimit	5
+47	aaaaaaaaaaa		241		game.defaultlines	5
+47	aaaaaaaaaaa		245		game.defaultdenomination	10
+47	aaaaaaaaaaa		245		game.defaultlimit	5
+47	aaaaaaaaaaa		245		game.defaultlines	5
+47	aaaaaaaaaaa		246		game.defaultdenomination	10
+47	aaaaaaaaaaa		246		game.defaultlimit	5
+47	aaaaaaaaaaa		246		game.defaultlines	5
+47	aaaaaaaaaaa		247		game.defaultdenomination	10
+47	aaaaaaaaaaa		247		game.defaultlimit	5
+47	aaaaaaaaaaa		247		game.defaultlines	5
+47	aaaaaaaaaaa		249		game.defaultdenomination	10
+47	aaaaaaaaaaa		249		game.defaultlimit	5
+47	aaaaaaaaaaa		249		game.defaultlines	5
+47	MyContext		100298		game.defaultdenomination	10
+47	MyContext		100298		game.defaultlimit	1
+47	MyContext		100298		game.defaultlines	5
+47	MyContext		100301		game.defaultdenomination	10
+47	MyContext		100301		game.defaultlimit	1
+47	MyContext		100301		game.defaultlines	5
+47	MyContext		100305		game.defaultdenomination	10
+47	MyContext		100305		game.defaultlimit	1
+47	MyContext		100305		game.defaultlines	5
+47	MyContext		100309		game.defaultdenomination	10
+47	MyContext		100309		game.defaultlimit	1
+47	MyContext		100309		game.defaultlines	5
+47	MyContext		100310		game.defaultdenomination	10
+47	MyContext		100310		game.defaultlimit	1
+47	MyContext		100310		game.defaultlines	5
+47	MyContext		100311		game.defaultdenomination	10
+47	MyContext		100311		game.defaultlimit	1
+47	MyContext		100311		game.defaultlines	5
+47	MyContext		100312		game.defaultdenomination	10
+47	MyContext		100312		game.defaultlimit	1
+47	MyContext		100312		game.defaultlines	5
+47	MyContext		100313		game.defaultdenomination	10
+47	MyContext		100313		game.defaultlimit	1
+47	MyContext		100313		game.defaultlines	5
+47	MyContext		100314		game.defaultdenomination	10
+47	MyContext		100314		game.defaultlimit	1
+47	MyContext		100314		game.defaultlines	5
